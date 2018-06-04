@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta author="Mateo Molem">
+		<meta description="Es una pagina para aprender los verbos en aleman."> 
+		<meta keywords="verbos,aleman,deutsch,spanien,español,conjugados, trainer">
+	<title>brechen</title>
+	<style type="text/css">
+		html{
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+		div.seccion{
+			display: inline-block;
+			width: 25%;
+		}
+		ul{
+			list-style-type: none;
+			position: relative;
+			right: 40px;
+			margin: 0%;
+		}
+		h1{
+			text-align: center;
+		
+			width: 100%;
+		}
+		ul.arriba{
+			border-top: 2px dashed;
+			border-bottom: 2px dashed;
+			width: 100%;
+		}
+		body {
+            background-color: #f0f05a;
+        }
+	</style>
+</head>
+<body>
+	<h1>Verbos</h1>
+	<ul class="arriba">
+		<li>Infinitivo: brechen </li>
+		<li>Participio: gebrochen</li>
+		<li>Imperativo: br<span>ich</span></li<span>du</span>
+	<span>er, sie, es</span>div>
+	<div<span>wir</span>="seccion">
+		<h3>Presente</h3>
+		<ul>
+			<li><span>ich</span> breche</li>
+			<li><span>du</span> brechst</li>
+			<li><span>er, sie, es</span> brecht</li>
+			<li><span>wir</span> brechen</li>
+			<li><span>ihr</span> brecht</li>
+			<li><span>sie, Sie</span> brechen</li>
+		</ul>
+	</div>
+	<div class="seccion">
+		<h3>Pretérito perfecto</h3>
+		<ul>
+			<li><span>ich</span> bin gebrochen</li>
+			<li><span>du</span> bist gebrochen</li>
+			<li><span>er, sie, es</span> ist gebrochen</li>
+			<li><span>wir</span> sind gebrochen</li>
+			<li><span>ihr</span> seid gebrochen</li>
+			<li><span>sie, Sie</span> sind gebrochen</li>
+		</ul>
+	</div>
+	<div class="seccion">
+		<h3>Futuro</h3>
+		<ul>
+			<li><span>ich</span> werde brechen</li>
+			<li><span>du</span> wirst brechen</li>
+			<li><span>er, sie, es</span> wird brechen</li>
+			<li><span>wir</span> werden brechen</li>
+			<li><span>ihr</span> werdet brechen</li>
+			<li><span>sie, Sie</span> werden brechen</li>
+		</ul>
+	</div>
+</div>
+</body>
+<script>
+	window.onload = function (){
+			var lis = document.querySelectorAll("span");
+			for(i=0;i<lis.length;i++){
+				if(lis[i].innerText == "ich"){
+					lis[i].style.paddingRight = "53px";
+				}
+				else if(lis[i].innerText == "du"){
+					lis[i].style.paddingRight = "57px";
+				}
+				else if(lis[i].innerText == "er, sie, es"){
+					lis[i].style.paddingRight = "5px";
+				}
+				
+				else if(lis[i].innerText == "wir"){
+					lis[i].style.paddingRight = "50px";
+				}
+				
+				else if(lis[i].innerText == "ihr"){
+					lis[i].style.paddingRight = "55px";
+				}
+				
+				else if(lis[i].innerText == "sie, Sie"){
+					lis[i].style.paddingRight = "25px";
+				}
+			}
+		}
+	</script>
+</html>

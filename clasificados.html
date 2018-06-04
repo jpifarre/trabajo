@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta author="Mateo Molem">
+    <meta description="Es una pagina para aprender los verbos en aleman.">
+    <meta keywords="verbos,aleman,deutsch,spanien,español,conjugados, trainer">
+    <title>Clasificados</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+    </style>
+    <style>
+        * {
+            font-family: "Roboto", sans-serif;
+        }
+
+        p.centrada {
+            width: 100%;
+            text-align: center;
+            position: relative;
+            left: 80px;
+
+        }
+
+        body {
+            font-family: "Roboto";
+            font-size: 1.5em;
+        }
+
+        p#izquierda {
+
+            width: 20%;
+            float: left;
+            text-align: center;
+            position: relative;
+            bottom: 12px;
+        }
+
+        p#izquierda a {
+            text-decoration: none;
+        }
+
+
+        .derecha {
+            padding-left: 100px;
+        }
+
+        html {
+            font-family: "Roboto", sans-serif;
+            font-size: 1em;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        div#a {
+            margin: 5px;
+            float: left;
+            width: 70%;
+        }
+
+        div {
+            margin: 5px;
+            width: 85%;
+        }
+
+
+
+
+
+        label {
+            font-size: 2em;
+        }
+
+        .noColores {
+            text-decoration-line: none;
+        }
+
+        p#aqui {
+            color: white;
+            text-decoration: underline;
+            text-align: center;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        p#aqui2 {
+            padding: 0%;
+            margin: 0%;
+            color: white;
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        footer {
+            width: 100%;
+        }
+
+
+
+        a {
+            text-decoration: none;
+        }
+
+        #span,#naps {
+            font-size: 25px;
+            text-align: left;
+            display: inline-block;
+            width: 90%;
+        }
+
+        #span2 {
+            font-size: 25px;
+            text-align: left;
+            display: inline-block;
+            
+            width: 90%;
+        }
+
+        article {
+            font-size: 1.5em;
+        }
+
+        input.btn {
+            height: 30px;
+            color: white;
+        }
+
+        input#btnOtro {
+
+            position: relative;
+            left: 290px;
+        }
+
+        input.text {
+            font-size: 1em;
+            background: none;
+            border: none;
+        }
+
+        label {
+            font-size: 1em;
+        }
+
+        label.grande {
+            font-size: 1.5em;
+            clear: both;
+        }
+
+        form img {
+            padding: 0px;
+        }
+
+        p#debajo {
+            position: relative;
+            left: 20px;
+        }
+
+        .bloque {
+            display: block;
+        }
+
+        .floatderecha {
+            float: right;
+            padding-right: 30px;
+        }
+
+        .floatizquierda {
+            padding-top: 20px;
+            display: flex;
+            font-size: 17px;
+            flex-wrap: nowrap;
+        }
+
+        .box {
+            width: 300px;
+        }
+
+        table#izquierda {
+            margin-right: 5px;
+            float: left;
+            width: 20%;
+            float: left;
+            text-align: left;
+            position: relative;
+            bottom: 190px;
+        }
+
+        h5 {
+            margin: 10px;
+            font-size: 1em;
+            font-weight: normal;
+        }
+
+        #txtVerbo {
+            width: 150px;
+        }
+        p.centrada img{
+            padding-right: 130px;    
+        }
+        input#txtResultado {
+            
+            border-bottom: 2px solid black;
+        }
+        tr:nth-child(n+2):nth-child(-n+9) img{
+            margin-right: 10px;
+            margin-left: 10px;
+            padding: 0%;
+        }
+        label.azul {
+            color: rgb(135, 135, 231);
+        }
+
+        .amarillo {
+            color: yellow;
+        }
+
+        .fondoNegro {
+            background-color: white;
+            display: inline;
+            color: black;
+            margin: 0%;
+
+        }
+
+        input[type="radio"] {
+            width: 5%;
+
+        }
+
+        .btn {
+            font-size: 20px;
+            background: #5EB12C;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            border-radius: 30px;
+            position: relative;
+            left: 25px;
+
+        }
+
+        .floatIzquierda {
+            width: 50%;
+            margin: 0%;
+            display: inline-block;
+        }
+
+        .floatDerecha {
+            width: 50%;
+            float: right;
+        }
+
+        .noPadding {
+            padding-bottom: 15px;
+            padding-left: 10px;
+            margin: 0%;
+
+        }
+
+        table#izquierda td#asdl {
+            background: #5EB12C;
+            display: inline-block;
+            width: 200px;
+            margin-bottom: 20px;
+        }
+
+        td#asdl a {
+            color: white;
+            font-weight: 900;
+        }
+
+        .qwe,
+        .poi {
+            display: none;
+        }
+
+        #txtPersona {
+            width: 190px;
+        }
+
+        #btnA,
+        #btnO,
+        #btnU,
+        #btnB {
+            font-size: 23px;
+        }
+        .espacio {
+            padding-right: 100px;
+        }
+    </style>
+
+</head>
+<script type="text/javascript" src="https://counter8.allfreecounter.com/private/counter.js?c=tjaxgc8jn7ct179eeh29thhynnk5s2jy&down=async"
+    async></script>
+<noscript>
+    <a href="https://www.contadorvisitasgratis.com" title="contadores de visitas">
+        <img src="https://counter8.allfreecounter.com/private/contadorvisitasgratis.php?c=tjaxgc8jn7ct179eeh29thhynnk5s2jy" border="0"
+            title="contadores de visitas" alt="contadores de visitas">
+    </a>
+</noscript>
+<header>
+    <p class="centrada">
+        <a title="Landkreis Osnabrück" href="http://www.landkreis-osnabrueck.de/">
+            <img src="./fotos/3.PNG" alt="Landkreis Osnabrück">
+        </a>
+        <a title="Ajuntament de Lleida" href="http://www.paeria.es/cat/">
+            <img src="./fotos/1.PNG" alt="Ajuntament de Lleida">
+        </a>
+        <a title="Generalitat de Catalunya" href="http://web.gencat.cat/cat/inici">
+            <img src="./fotos/2.PNG" alt="Generalitat de Catalunya">
+        </a>
+
+    </p>
+</header>
+
+<body>
+    <table id="izquierda">
+        <tr>
+            <td>
+                <img width="100%" height="200px" href="trainer.html" src=".\fotos\4.png">
+            </td>
+        </tr>
+        <tr>
+            <td id="asdl">
+                <img src="./fotos/inicio.png" width="20px" height="20px" ><a href="#">  Inicio</a>
+            </td>
+        </tr>
+        <tr>
+            <td id="asdl">
+                <img src="./fotos/gramatica.png" width="25px" height="25px" ><a id="ewq">  Gramática</a>
+                <a href="./Conjugar Presente.html" class="qwe">Presente</a>
+                <a href="./Conjugar Preterito.html" class="qwe">Pretérito perfecto</a>
+            </td>
+        </tr>
+        <tr>
+            <td id="asdl">
+                <img src="./fotos/lista.png" width="20px" height="20px" ><a href="uno.html"> Lista de verbos</a>
+            </td>
+        </tr>
+        <tr>
+            <td id="asdl" style="background-color: grey;">
+                <img src="./fotos/herramienta.png" width="20px" height="20px" ><a href="clasificados.html">Campos profesionales</a>
+            </td>
+        </tr>
+        <tr>
+            <td id="asdl">
+                <img src="./fotos/lapiz.png" width="20px" height="20px" ><a id="ert"> Ejercicios</a>
+                <a href="trainer presente.html" class="poi">Presente</a>
+                <a href="trainer preterito.html" class="poi">Pretérito perfecto</a>
+                <a href="trainer.html" class="poi">Practicar todos</a>
+            </td>
+        </tr>
+    </table>
+
+
+    <div id="a">
+
+        <form class="derecha" name="f1">
+            <label classs="bloque">Seleccione el campo</label>
+            <br>
+            <article class="floatizquierda">
+                <article class="box">
+                    <input type="radio" id="chcInfo" name="chc" value="1">
+                    <img src=".\fotos\Informatica.png" width="20px" height="20px"> Informática y oficina
+                    <br>
+                    <input type="radio" id="chcNatu" name="chc" value="2">
+                    <img src=".\fotos\arbol.svg" width="20px" height="20px"> Medio ambiente
+                    <br>
+                    <input type="radio" id="chcElec" name="chc" value="3">
+                    <img src=".\fotos\electricidad.png" width="20px" height="20px"> Electricidad
+                </article>
+                <article class="box">
+                    <input type="radio" id="chcAuto" name="chc" value="4">
+                    <img src=.\fotos\Automocion.png width="20px" height="20px"> Automoción
+
+                    <br>
+
+                    <input type="radio" id="chcSoci" name="chc" value="5">
+                    <img src=".\fotos\trabajo social.png" width="20px" height="20px"> Trabajo social
+                    <br>
+
+                <input type="radio" id="chcEqui" name="chc" value="6">
+                    <img src=".\fotos\Caballito de palo.png" width="20px" height="20px"> Equitación
+                </article>
+                <article class="box">
+                    <input type="radio" id="chcHoste" name="chc" value="7">
+                    <img src=.\fotos\hosteleria.png width="20px" height="20px"> Hostelería
+                    <br>
+                    <input type="radio" id="chcInfo" name="chc" value="8">
+                    <img src=".\fotos\Farmacia.svg" width="20px" height="20px"> Sanidad
+                    <br>
+       <input type="radio" id="chcOtros" name="chc" value="9" > <span style="padding-left: 26px;">Otros</span>
+                 
+                </article>
+            </article>
+        </form>
+        <br>
+        <form class="derecha">
+            <div>
+                <p id="debajo">
+                        <label class="espacio"></label>
+                    <input type="text" class="text" name="txtVerbo" id="txtVerbo" style="font-size: 1.7em; width: 300px;">
+                    <br>
+                    <label class="espacio"></label>
+                    <input type="text" class="text" name="txtTiempo" id="txtTiempo" style="font-size: 1.5em;">
+                    <br>
+                    <label class="espacio"></label>
+
+                    <input type="text" class="text" name="txtPersona" id="txtPersona" style="font-size: 1.5em;">
+
+                    <br>
+
+                    <label class="azul">Solución: </label>
+                    <input type="text" class="text" name="txtResultado" id="txtResultado">
+                    <input type="button" value="ä" name="btnA" id="btnA">
+                    <input type="button" value="ö" name="btnO" id="btnO">
+                    <input type="button" value="ü" name="btnU" id="btnU">
+                    <input type="button" value="ß" name="btnB" id="btnB">
+                </p>
+            </div>
+
+            <input type="button" class="btn" name="btn1" value="Comprobar" id="btnComprobar">
+            <input type="button" class="btn" name="btn3" value="Solución" id="btnSolucion">
+            <input type="button" class="btn" name="btn4" value="Conjugación" id="btnMostrar">
+            <input type="button" class="btn" name="btn2" value="Siguiente" id="btnOtro">
+
+
+        </form>
+        <hr>
+        <article class="floatIzquierda">
+            <p id="aqui">
+                <img src="./fotos/espanha2.png" alt="Bandera España" width="80px" height="50px" class="fotoFrases">
+                <img src=.\fotos\altavoz.png width="20px" height="20px" class="noPadding">
+            </p>
+
+            <br>
+            <hr>
+
+            
+            <p id="naps" class="napEspaña1" style="height: 20px;"></p>
+            <p id="naps" class="napEspaña1" style="height: 20px;"></p>
+            <p id="naps" class="napEspaña1" style="height: 20px;"></p>
+
+            <hr>
+            
+            <p id="span" style="height: 100px;"></p>
+        </article>
+        <article class="floatDerecha">
+
+            <p id="aqui2">
+                <img src="./fotos/banderaAlemania.png" alt="Bandera Alemana" width="80px" height="50px" class="fotoFrases">
+                <img src=.\fotos\altavoz.png width="20px" height="20px" class="noPadding">
+            </p>
+            <br>
+            <hr>
+
+
+            
+            <p id="naps" class="napAle1" style="height: 20px;"></p>
+            <p id="naps" class="napAle1" style="height: 20px;"></p>
+            <p id="naps" class="napAle1" style="height: 20px;"></p>
+
+            <hr>
+           
+           <p id="span2" style="height: 100px;"></p>
+         </article>
+        
+
+        <hr style="clear: both">
+
+    </div>
+</body>
+
+<footer class="clear">
+    <p class="centrada">
+        <a title="Universitat Bremen" href="http://www.uni-bremen.de">
+            <img src="./fotos/1 bot.PNG" alt="Universitat Bremen">
+        </a>
+        <a title="Berufsbildende Bremen" href="https://www.bildung.bremen.de/start-1459">
+            <img src="./fotos/2 bot.PNG" alt="Berufsbildende Bremen">
+        </a>
+        <a title="lerschlucht" href="">
+            <img src="./fotos/3 bot.PNG" alt="lerschlucht">
+        </a>
+        <a title="Institut escola del Trebail" href="http://escoladeltreball.cat">
+            <img src="./fotos/4 bot.PNG" alt="Institut escola del Trebail">
+        </a>
+        <a title="Caparrella" href="http://www.iescaparrella.cat/">
+            <img src="./fotos/5 bot.PNG" alt="Caparrella">
+        </a>
+        <a title="Escola de hosteleria" href="http://agora.xtec.cat/iesescolahoteleriadelleida/">
+            <img src="./fotos/6 bot.PNG" alt="Escola de hosteleria">
+        </a>
+        <a title="Friedich Schriller Universitat Jena" href="http://www.uni-jena.de/">
+            <img src="./fotos/7 bot.PNG" alt="Friedich Schriller Universitat Jena">
+        </a>
+    </p>
+</footer>
+<script>
+    var abschalten = [new Verbo("schalte ab", "schaltest ab", "schaltet ab", "schalten ab", "schaltet ab", "schalten ab"), new Verbo("habe abgeschaltet", "hast abgeschaltet", "hat abgeschaltet", "haben abgeschaltet", "habt abgeschaltet", "haben abgeschaltet"), "ab·schalten", "Él apaga la máquina-Er schaltet die Maschine ab", "die Computer abschalten-apagar el ordenador&den Fernseher abschalten-apagar el televisor&den Storm abschalten-cortar la corriente electrica", "1"];
+
+var zumachen = [new Verbo("mache zu", "machst zu", "macht zu", "machen zu", "macht zu", "machen zu"), new Verbo("habe zugemacht", "hast zugemacht", "hat zugemacht", "haben zugemacht", "habt zugemacht", "haben zugemacht"), "zu·machen", "No debes cerrar la puerta-Du darfst nicht die Tür zumachen"];
+
+var aussetzen = [new Verbo("setze aus", "setzt aus", "setzt aus", "setzen aus", "setzt aus", "setzen aus"), new Verbo("habe ausgesetzt", "hast ausgesetzt", "hat ausgesetzt", "haben ausgesetzt", "habt ausgesetzt", "haben ausgesetzt"), "aus·setzen", "Pasar un turno (juego de cartas)-Der Motor setzt aus"];
+
+var anziehen = [new Verbo("ziehe an", "ziehst an", "zieht an", "ziehen an", "zieht an", "ziehen an"), new Verbo("habe angezogen", "hast angezogen", "hat angezogen", "haben angezogen", "habt angezogen", "haben angezogen"), "an·ziehen", "Vete a vestir-Ich ziehe mich an"];
+
+var putzen = [new Verbo("putze", "putzt", "putzt", "putzen", "putzt", "putzen"), new Verbo("habe geputzt", "hast geputzt", "hat geputzt", "haben geputzt", "habt geputzt", "haben geputzt"), "putzen", "lavarse los dientes-sich die Zähne putzen"];
+
+var mitkommen = [new Verbo("komme mit", "kommst mit", "kommt mit", "kommen mit", "kommt mit", "kommen mit"), new Verbo("bin mitgekommen", "bist mitgekommen", "ist mitgekommen", "sind mitgekommen", "seid mitgekommen", "sind mitgekommen"), "mit·kommen", "Quiero ir contigo-Ich möchte mit dir mitkommen"];
+
+var aufräumen = [new Verbo("räume auf", "räumst auf", "räumt auf", "räumen auf", "räumt auf", "räumen auf"), new Verbo("habe aufgeräumt", "hast aufgeräumt", "hat aufgeräumt", "haben aufgeräumt", "habt aufgeräumt", "haben aufgeräumt"), "auf·räumen", "Tienes que ordenar tu escritorio-Du musst deinen Schreibtisch aufräumen"];
+
+var installieren = [new Verbo("installiere", "installierst", "installiert", "installieren", "installiert", "installieren"), new Verbo("habe installiert", "hast installiert", "hat installiert", "haben installiert", "habt installiert", "haben installiert"), "installieren", "Instalo el programa en el ordenador-Ich installiere das Programm auf dem Computer"];
+
+var aufladen = [new Verbo("lade auf", "lädst auf", "lädt auf", "laden auf", "ladet auf", "laden auf"), new Verbo("habe aufgeladen", "hast aufgeladen", "hat aufgeladen", "haben aufgeladen", "habt aufgeladen", "haben aufgeladen"), "auf·laden", "Recargo la batería del teléfono móvil-Ich lade den Handy-Akku auf"];
+
+var reparieren = [new Verbo("repariere", "reparierst", "repariert", "reparieren", "repariert", "reparieren"), new Verbo("habe repariert", "hast repariert", "hat repariert", "haben repariert", "habt repariert", "haben repariert"), "reparieren", "Reparo el ventilador de mi hermana-Ich repariere den Ventilator meiner Schwester"];
+
+var ausdrucken = [new Verbo("drucke aus", "druckst aus", "druckt aus", "drucken aus", "druckt aus", "drucken aus"), new Verbo("habe ausgedruckt", "hast ausgedruckt", "hat ausgedruckt", "haben ausgedruckt", "habt ausgedruckt", "haben ausgedruckt"), "aus·drucken", "Tú imprimes el formulario con la impresora-Du druckst dein Formular mit dem Drucker aus"];
+
+var löschen = [new Verbo("lösche", "löschst", "löscht", "löschen", "löscht", "löschen"), new Verbo("habe gelöscht", "hast gelöscht", "hat gelöscht", "haben gelöscht", "habt gelöscht", "haben gelöscht"), "löschen", "Él ha eliminado el párrafo del documento-Er hat den Absatz aus dem Dokument gelöscht"];
+
+var tippen = [new Verbo("tippe", "tippst", "tippt", "tippen", "tippt", "tippen"), new Verbo("habe getippt", "hast getippt", "hat getippt", "haben getippt", "habt getippt", "haben getippt"), "tippen", "Escribo a ordenador el artículo del periódico-Ich tippe den Zeitungsartikel"];
+
+var programmieren = [new Verbo("programmiere", "programmierst", "programmiert", "programmieren", "programmiert", "programmieren"), new Verbo("habe programmiert", "hast programmiert", "hat programmiert", "haben programmiert", "habt programmiert", "haben programmiert"), "programmieren", "Programo una aplicación informática-Ich programmiere eine Anwendung"];
+
+// var anklicken = cambiar[new Verbo("klicke an", "klickst an", "klickt an", "klicken an", "klickt an", "klicken an"), new Verbo("habe angeklickt", "hast angeklickt", "hat angeklickt", "haben angeklickt", "habt angeklickt", "haben angeklickt"), "an·klicken", "Hago clic con el cursor sobre la carpeta-Ich klicke mit dem Cursor den Ordner an"];
+
+var formatieren = [new Verbo("formatiere", "formatierst", "formatiert", "formatieren", "formatiert", "formatieren"), new Verbo("habe formatiert", "hast formatiert", "hat formatiert", "haben formatiert", "habt formatiert", "haben formatiert"), "formatieren", "Formateo el disco duro-Ich formatiere die Festplatte"];
+
+var kopieren = [new Verbo("kopiere", "kopierst", "kopiert", "kopieren", "kopiert", "kopieren"), new Verbo("habe kopiert", "hast kopiert", "hat kopiert", "haben kopiert", "habt kopiert", "haben kopiert"), "kopieren", "Copio el archivo a otra carpeta-Ich kopiere die Datei in einen anderen Ordner"];
+
+var messen = [new Verbo("messe", "misst", "misst", "messen", "messt", "messen"), new Verbo("habe gemessen", "hast gemessen", "hat gemessen", "haben gemessen", "habt gemessen", "haben gemessen"), "messen", "Mido la ventana-Ich messe das Fenster"];
+
+var durchschneiden = [new Verbo("schneide durch", "schneidest durch", "schneidet durch", "schneiden durch", "schneidet durch", "schneiden durch"), new Verbo("habe durchgeschnitten", "hast durchgeschnitten", "hat durchgeschnitten", "haben durchgeschnitten", "habt durchgeschnitten", "haben durchgeschnitten"), "durch·schneiden", "Corta la tubería por la mitad-Schneid das Rohr in der Mitte durch"];
+
+var herstellen = [new Verbo("herstelle", "herstellst", "herstellt", "herstellen", "herstellt", "herstellen"), new Verbo("habe hergestellt", "hast hergestellt", "hat hergestellt", "haben hergestellt", "habt hergestellt", "haben hergestellt"), "herstellen", "En esta fábrica se producen muebles-In dieser Fabrik werden Möbel hergestellt"];
+
+var durchbohren = [new Verbo("durchbohre", "durchbohrst", "durchbohrt", "durchbohren", "durchbohrt", "durchbohren"), new Verbo("habe durchbohrt", "hast durchbohrt", "hat durchbohrt", "haben durchbohrt", "habt durchbohrt", "haben durchbohrt"), "durch·bohren", "Él taladra la pared-Er durchbohrt die Wand"];
+
+var streichen = [new Verbo("streiche", "streichst", "streicht", "streichen", "streicht", "streichen"), new Verbo("habe gestrichen", "hast gestrichen", "hat gestrichen", "haben gestrichen", "habt gestrichen", "haben gestrichen"), "streichen", "Tú pintas el banco de azul-Du streichst die Bank in blauer Farbe"];
+
+var kleben = [new Verbo("klebe", "klebst", "klebt", "kleben", "klebt", "kleben"), new Verbo("habe geklebt", "hast geklebt", "hat geklebt", "haben geklebt", "habt geklebt", "haben geklebt"), "kleben", "He pegado las piezas entre sí-Ich habe die Stücke miteinander geklebt"];
+
+var zerkleinern = [new Verbo("zerkleinere", "zerkleinerst", "zerkleinert", "zerkleinern", "zerkleinert", "zerkleinern"), new Verbo("habe zerkleinert", "hast zerkleinert", "hat zerkleinert", "haben zerkleinert", "habt zerkleinert", "haben zerkleinert"), "zerkleinern", "Ella pica los pimientos-Sie zerkleinert die Paprika"];
+
+var montieren = [new Verbo("montiere", "montierst", "montiert", "montieren", "montiert", "montieren"), new Verbo("habe montiert", "hast montiert", "hat montiert", "haben montiert", "habt montiert", "haben montiert"), "montieren", "He montado placas solares-Ich habe Solarmodulen montiert"];
+
+var heften = [new Verbo("hefte", "heftest", "heftet", "heften", "heftet", "heften"), new Verbo("habe geheftet", "hast geheftet", "hat geheftet", "haben geheftet", "habt geheftet", "haben geheftet"), "heften", "Grapo las vigas-Ich hefte die Balken"];
+
+var laden = [new Verbo("lade", "lädst", "lädt", "laden", "ladet", "laden"), new Verbo("habe geladen", "hast geladen", "hat geladen", "haben geladen", "habt geladen", "haben geladen"), "laden", "He cargado el saco de arena-Ich habe den Sandsack geladen"];
+
+var saugen = [new Verbo("sauge", "saugst", "saugt", "saugen", "saugt", "saugen"), new Verbo("habe gesaugt", "hast gesaugt", "hat gesaugt", "haben gesaugt", "habt gesaugt", "haben gesaugt"), "saugen", "La aspiradora ya no aspira bien-Der Staubsauger saugt nicht mehr richtig"];
+
+var transportieren = [new Verbo("transportiere", "transportierst", "transportiert", "transportieren", "transportiert", "transportieren"), new Verbo("habe transportiert", "hast transportiert", "hat transportiert", "haben transportiert", "habt transportiert", "haben transportiert"), "transportieren", "Ellos transportan materiales de construcción-Sie transportieren Baustoffe"];
+
+var unterrichten = [new Verbo("unterrichte", "unterrichtest", "unterrichtet", "unterrichten", "unterrichtet", "unterrichten"), new Verbo("habe unterrichtet", "hast unterrichtet", "hat unterrichtet", "haben unterrichtet", "habt unterrichtet", "haben unterrichtet"), "unterrichten", "Me explicaron las instrucciones de seguridad-Mir wurden die Sicherheitsunterweisungen unterrichtet"];
+
+var schrauben = [new Verbo("schraube", "schraubst", "schraubt", "schrauben", "schraubt", "schrauben"), new Verbo("habe geschraubt", "hast geschraubt", "hat geschraubt", "haben geschraubt", "habt geschraubt", "haben geschraubt"), "schrauben", "Primero atornillas la madera y después la barnizas-Zuerst schraubst du das Holz und danach lackierst du es"];
+
+var finden = [new Verbo("finde", "findest", "findet", "finden", "findet", "finden"), new Verbo("habe gefunden", "hast gefunden", "hat gefunden", "haben gefunden", "habt gefunden", "haben gefunden"), "finden", "No encuentro el tornillo-Ich kann die Schraube nicht finden"];
+
+var tun = [new Verbo("tue", "tust", "tut", "tun", "tut", "tun"), new Verbo("habe getan", "hast getan", "hat getan", "haben getan", "habt getan", "haben getan"), "tun", "Hacer el bien-Gutes tun"];
+
+var gehen = [new Verbo("gehe", "gehst", "geht", "gehen", "geht", "gehen"), new Verbo("bin gegangen", "bist gegangen", "ist gegangen", "sind gegangen", "seid gegangen", "sind gegangen"), "gehen", "Salgo a dar un paseo-Ich gehe spazieren"];
+
+var helfen = [new Verbo("helfe", "hilfst", "hilft", "helfen", "helft", "helfen"), new Verbo("habe geholfen", "hast geholfen", "hat geholfen", "haben geholfen", "habt geholfen", "haben geholfen"), "helfen", "Ayudar en casa-Im Haushalt helfen"];
+
+var schlagen = [new Verbo("schlage", "schlägst", "schlägt", "schlagen", "schlagt", "schlagen"), new Verbo("habe geschlagen", "hast geschlagen", "hat geschlagen", "haben geschlagen", "habt geschlagen", "haben geschlagen"), "schlagen", "Golpear con el martillo-Mit dem Hammer schlagen"];
+
+var verbinden = [new Verbo("verbinde", "verbindest", "verbindet", "verbinden", "verbindet", "verbinden"), new Verbo("habe verbunden", "hast verbunden", "hat verbunden", "haben verbunden", "habt verbunden", "haben verbunden"), "verbinden", "Uno estos dos cables-Ich verbinde diese zwei Kabel"];
+
+var teilen = [new Verbo("teile", "teilst", "teilt", "teilen", "teilt", "teilen"), new Verbo("habe geteilt", "hast geteilt", "hat geteilt", "haben geteilt", "habt geteilt", "haben geteilt"), "teilen", "27 se puede dividir entre 3-27 lässt sich durch 3 teilen"];
+
+var polieren = [new Verbo("poliere", "polierst", "poliert", "polieren", "poliert", "polieren"), new Verbo("habe poliert", "hast poliert", "hat poliert", "haben poliert", "habt poliert", "haben poliert"), "polieren", "Sacar brillo al coche-Das Auto glatt polieren"];
+
+var bohren = [new Verbo("bohre", "bohrst", "bohrt", "bohren", "bohrt", "bohren"), new Verbo("habe gebohrt", "hast gebohrt", "hat gebohrt", "haben gebohrt", "habt gebohrt", "haben gebohrt"), "bohren", "Perforar con la broca-Mit dem Bohrer bohren"];
+
+var reproduzieren = [new Verbo("reproduziere", "reproduzierst", "reproduziert", "reproduzieren", "reproduziert", "reproduzieren"), new Verbo("habe reproduziert", "hast reproduziert", "hat reproduziert", "haben reproduziert", "habt reproduziert", "haben reproduziert"), "reproduzieren", "hago una copia del vídeo-Ich reproduziere das Video"];
+
+var optimieren = [new Verbo("optimiere", "optimierst", "optimiert", "optimieren", "optimiert", "optimieren"), new Verbo("habe optimiert ", "hast optimiert", "hat optimiert", "haben optimiert", "habt optimiert", "haben optimiert"), "optimieren", "Optimizo el programa-Ich optimiere das Programm"];
+
+var schreiben = [new Verbo("schreibe", "schreibst", "schreibt", "schreiben", "schreibt", "schreiben"), new Verbo("habe geschrieben", "hast geschrieben", "hat geschrieben", "haben geschrieben", "habt geschrieben", "haben geschrieben"), "schreiben", "Escribir una nota al cliente-Dem Kunde eine Notiz schreiben"];
+
+var einschalten = [new Verbo("schalte ein", "schaltest ein", "schaltet ein", "schalten ein", "schaltet ein", "schalten ein"), new Verbo("habe eingeschaltet", "hast eingeschaltet", "hat eingeschaltet", "haben eingeschaltet", "habt eingeschaltet", "haben eingeschaltet"), "ein·schalten", "Enciende el ordenador-Schalte den Computer ein"];
+
+var fahren = [new Verbo("fahre", "fährst", "fährt", "fahren", "fahrt", "fahren"), new Verbo("bin gefahren", "bist gefahren", "ist gefahren", "sind gefahren", "seid gefahren", "sind gefahren"), "fahren", "Conduzco cada día para ir al trabajo-Ich fahre jeden Tag zur Arbeit"];
+
+var schalten = [new Verbo("schalte", "schaltest", "schaltet", "schalten", "schaltet", "schalten"), new Verbo("habe geschaltet", "hast geschaltet", "hat geschaltet", "haben geschaltet", "habt geschaltet", "haben geschaltet"), "schalten", "Conectar el portátil a la batería-Den Laptop auf Akkubetrieb schalten"];
+
+var beschleunigen = [new Verbo("beschleunige", "beschleunigst", "beschleunigt", "beschleunigen", "beschleunigt", "beschleunigen"), new Verbo("habe beschleunigt", "hast beschleunigt", "hat beschleunigt", "haben beschleunigt", "habt beschleunigt", "haben beschleunigt"), "beschleunigen", "Este coche acelera de 0 a 100 en 11 segundos-Dieser Wagen beschleunigt von 0 auf 100 Stundenkilometer in 11 Sekunden"];
+
+var öffnen = [new Verbo("öffne", "öffnest", "öffnet", "öffnen", "öffnet", "öffnen"), new Verbo("habe geöffnet", "hast geöffnet", "hat geöffnet", "haben geöffnet", "habt geöffnet", "haben geöffnet"), "öffnen", "¡Abre la ventana con cuidado!-Öffne das Fenster vorsichtig!"];
+
+var kratzen = [new Verbo("kratze", "kratzt", "kratzt", "kratzen", "kratzt", "kratzen"), new Verbo("habe gekratzt", "hast gekratzt", "hat gekratzt", "haben gekratzt", "habt gekratzt", "haben gekratzt"), "kratzen", "He rascado un poco la puerta-Ich habe die Tür leicht gekratzt"];
+
+var trennen = [new Verbo("trenne", "trennst", "trennt", "trennen", "trennt", "trennen"), new Verbo("habe getrennt", "hast getrennt", "hat getrennt", "haben getrennt", "habt getrennt", "haben getrennt"), "trennen", "Separa la soldadura de la tubería-Trenn die Naht vom Rohr"];
+
+var anfangen = [new Verbo("fange an", "fängst an", "fängt an", "fangen an", "fangt an", "fangen an"), new Verbo("habe angefangen", "hast angefangen", "hat angefangen", "haben angefangen", "habt angefangen", "haben angefangen"), "an·fangen", "Primero empiezo yo y luego es tu turno-Erst fange ich an und danach bist du daran"];
+
+var aufmachen = [new Verbo("mache auf", "machst auf", "macht auf", "machen auf", "macht auf", "machen auf"), new Verbo("habe aufgemacht", "hast aufgemacht", "hat aufgemacht", "haben aufgemacht", "habt aufgemacht", "haben aufgemacht"), "auf·machen", "No debes abrir la ventana-Du darfst nicht das Fenster aufmachen"];
+
+var nehmen = [new Verbo("nehme", "nimmst", "nimmt", "nehmen", "nehmt", "nehmen"), new Verbo("habe genommen", "hast genommen", "hat genommen", "haben genommen", "habt genommen", "haben genommen"), "nehmen", "Coge tu abrigo, nos vamos fuera-Nimm deinen Mantel, wir gehen nach draußen"];
+
+var aufstehen = [new Verbo("stehe auf", "stehst auf", "steht auf", "stehen auf", "steht auf", "stehen auf"), new Verbo("bin aufgestanden", "bist aufgestanden", "ist aufgestanden", "sind aufgestanden", "seid aufgestanden", "sind aufgestanden"), "auf·stehen", "Ya podéis levantaros-Ihr dürft jetzt aufstehen"];
+
+var abtrocknen = [new Verbo("trockne ab", "trocknest ab", "trocknet ab", "trocknen ab", "trocknet ab", "trocknen ab"), new Verbo("habe abgetrocknet", "hast abgetrocknet", "hat abgetrocknet", "haben abgetrocknet", "habt abgetrocknet", "haben abgetrocknet"), "ab·trocknen", "Puedes secarte las manos con esta toalla-Du kannst dir deine Hände mit diesem Handtuch abtrocknen"];
+
+var anmachen = [new Verbo("mache an", "machst an", "macht an", "machen an", "macht an", "machen an"), new Verbo("habe angemacht", "hast angemacht", "hat angemacht", "haben angemacht", "habt angemacht", "haben angemacht"), "an·machen", "¿Puedes encender la luz?-Kannst du das Licht anmachen?", "die Lampe anmachen-encender la lámpara&das Radio anmachen-encender la radio&die Heizung anmachen-encender la calefacción"];
+
+var träumen = [new Verbo("träume", "träumst", "träumt", "träumen", "träumt", "träumen"), new Verbo("habe geträumt", "hast geträumt", "hat geträumt", "haben geträumt", "habt geträumt", "haben geträumt"), "träumen", "Anoche soñé que sabía hablar alemán-Gestern Nacht habe ich geträumt, dass ich Deutsch sprechen konnte"];
+
+var vorlesen = [new Verbo("lese vor", "liest vor", "liest vor", "lesen vor", "lest vor", "lesen vor"), new Verbo("habe vorgelesen", "hast vorgelesen", "hat vorgelesen", "haben vorgelesen", "habt vorgelesen", "haben vorgelesen"), "vor·lesen", "Tienes que leer en alto 5 minutos todos los días-Du musst jeden Tag 5 Minuten vorlesen"];
+
+var ankommen = [new Verbo("komme an", "kommst an", "kommt an", "kommen an", "kommt an", "kommen an"), new Verbo("bin angekommen", "bist angekommen", "ist angekommen", "sind angekommen", "seid angekommen", "sind angekommen"), "an·kommen", "Debe estar llegando-Er muss bald ankommen"];
+
+var verkaufen = [new Verbo("verkaufe", "verkaufst", "verkauft", "verkaufen", "verkauft", "verkaufen"), new Verbo("habe verkauft", "hast verkauft", "hat verkauft", "haben verkauft", "habt verkauft", "haben verkauft"), "verkaufen", "La jefa ha vendido una casa de madera-Die Chefin hat ein Holzhaus verkauft"];
+
+var kaufen = [new Verbo("kaufe", "kaufst", "kauft", "kaufen", "kauft", "kaufen"), new Verbo("habe gekauft", "hast gekauft", "hat gekauft", "haben gekauft", "habt gekauft", "haben gekauft"), "kaufen", "He comprado material-Ich habe Material gekauft"];
+
+// var arbeiten =cambiar [new Verbo("arbeite", "arbeitest", "arbeitet", "arbeiten", "arbeitet", "arbeiten"), new Verbo("habe gearbeitet", "hast gearbeitet", "hat gearbeitet", "haben gearbeitet", "habt gearbeitet", "haben gearbeitet"), "arbeiten", "Primero trabajamos y después descansamos-Zuerst arbeiten wir und danach ruhen wir uns aus"];
+
+var reinigen = [new Verbo("reinige", "reinigst", "reinigt", "reinigen", "reinigt", "reinigen"), new Verbo("habe gereinigt", "hast gereinigt", "hat gereinigt", "haben gereinigt", "habt gereinigt", "haben gereinigt"), "reinigen", "Él limpia las herramientas-Er reinigt  die Werkzeuge"];
+
+var essen = [new Verbo("esse", "isst", "isst", "essen", "esst", "essen"), new Verbo("habe gegessen", "hast gegessen", "hat gegessen", "haben gegessen", "habt gegessen", "haben gegessen"), "essen", "Nosotros comemos pollo-Wir essen Hähnchen"];
+
+var sehen = [new Verbo("sehe", "siehst", "sieht", "sehen", "seht", "sehen"), new Verbo("habe gesehen", "hast gesehen", "hat gesehen", "haben gesehen", "habt gesehen", "haben gesehen"), "sehen", "Vemos la tele-Wir sehen fern"];
+
+var tragen = [new Verbo("trage", "trägst", "trägt", "tragen", "tragt", "tragen"), new Verbo("habe getragen", "hast getragen", "hat getragen", "haben getragen", "habt getragen", "haben getragen"), "tragen", "Debes llevar puesto el uniforme durante el trabajo-Du musst die Uniform auf der Arbeit tragen"];
+
+var suchen = [new Verbo("suche", "suchst", "sucht", "suchen", "sucht", "suchen"), new Verbo("habe gesucht", "hast gesucht", "hat gesucht", "haben gesucht", "habt gesucht", "haben gesucht"), "suchen", "Busco la parada de autobús-Ich suche die Bushaltestelle"];
+
+var brauchen = [new Verbo("brauche", "brauchst", "braucht", "brauchen", "braucht", "brauchen"), new Verbo("habe gebraucht", "hast gebraucht", "hat gebraucht", "haben gebraucht", "habt gebraucht", "haben gebraucht"), "brauchen", "Necesito un destornillador-Ich brauche einen Schraubenzieher"];
+
+// var schliessen = cambiar[new Verbo("schließe", "schließt", "schließt", "schließen", "schließt", "schließen"), new Verbo("habe geschlossen", "hast geschlossen", "hat geschlossen", "haben geschlossen", "habt geschlossen", "haben geschlossen"), "an·schließen", "Conecta la manguera al grifo-Schließ den Schlauch an den Wasserhahn an"];
+
+var konfigurieren = [new Verbo("konfiguriere", "konfigurierst", "konfiguriert", "konfigurieren", "konfiguriert", "konfigurieren"), new Verbo("habe konfiguriert", "hast konfiguriert", "hat konfiguriert", "haben konfiguriert", "habt konfiguriert", "haben konfiguriert"), "konfigurieren", "Debe configurar el ordenador-Sie müssen den Computer konfigurieren"];
+
+// var einfügen = cambiar[new Verbo("füge ein", "fügst ein", "fügt ein", "fügen ein", "fügt ein", "fügen ein"), new Verbo("habe eingefügt", "hast eingefügt", "hat eingefügt", "haben eingefügt", "habt eingefügt", "haben eingefügt"), "ein·fügen", "Para pegar pulsa ctrl+v-Drücke ctr+v um einzufügen"];
+
+// var eliminieren = cambiar[new Verbo("eliminiere", "eliminierst", "eliminiert", "eliminieren", "eliminiert", "eliminieren"), new Verbo("habe eliminiert", "hast eliminiert", "habe eliminiert", "haben eliminiert", "habt eliminiert", "haben eliminiert"), "löschen", "Elimino virus para evitar problemas-Ich eliminiere Viren, um Probleme zu vermeiden"];
+
+// var neustarte = cambiar[new Verbo("starte neu", "startest neu", "startet neu", "starten neu", "startet neu", "starten neu"), new Verbo("habe neugestartet", "hast neugestartet", "hat neugestartet", "haben neugestartet", "habt neugestartet", "haben neugestartet"), "neu·starten", "Reinicio el portátil para actualizarlo-Ich starte den Laptop neu, um ihn zu aktualisieren"];
+
+var speichern = [new Verbo("speichere", "speicherst", "speichert", "speichern", "speichert", "speichern"), new Verbo("habe gespeichert", "hast gespeichert", "hat gespeichert", "haben gespeichert", "habt gespeichert", "haben gespeichert"), "speichern", "Almaceno información en el disco duro-Ich speichere Informationen auf der Festplatte"];
+
+// var tauschen = cambiar[new Verbo("tausche", "tauschst", "tauscht", "tauschen", "tauscht", "tauschen"), new Verbo("habe ge-tauscht", "hast ge-tauscht", "habe ge-tauscht", "haben ge-tauscht", "habt ge-tauscht", "haben ge-tauscht"), "ersetzen", "hay que cambiar la clavija porque esa ya no funciona-Es ist nötig, den Stift zu tauschen, weil diese nicht mehr funktionert"];
+
+var einstecken = [new Verbo("stecke ein", "steckst ein", "steckt ein", "stecken ein", "steckt ein", "stecken ein"), new Verbo("habe eingesteckt", "hast eingesteckt", "hat eingesteckt", "haben eingesteckt", "habt eingesteckt", "haben eingesteckt"), "ein·stecken", "Enchufo el taladro-Ich stecke den Bohrer ein"];
+
+var verkabeln = [new Verbo("verkab(e)le", "verkabelst", "verkabelt", "verkabeln", "verkabelt", "verkabeln"), new Verbo("habe verkabelt", "hast verkabelt", "hat verkabelt", "haben verkabelt", "habt verkabelt", "haben verkabelt"), "verkabeln", "Cableo la red eléctrica-Ich verkable den Motor"];
+
+var legen = [new Verbo("lege", "legst", "legt", "legen", "legt", "legen"), new Verbo("habe gelegt", "hast gelegt", "hat gelegt", "haben gelegt", "habt gelegt", "haben gelegt"), "legen", "Nosotros colocamos los libros en la estantería-Wir legen die Bücher auf das Regal"];
+
+var kontrollieren = [new Verbo("kontrolliere", "kontrollierst", "kontrolliert", "kontrollieren", "kontrolliert", "kontrollieren"), new Verbo("habe kontrolliert", "hast kontrolliert", "hat kontrolliert", "haben kontrolliert", "habt kontrolliert", "haben kontrolliert"), "kontrollieren", "Compruebe las conexiones eléctricas-Kontrollieren Sie die Anschlüsse"];
+
+var fallen = [new Verbo("falle", "fällst", "fällt", "fallen", "fallt", "fallen"), new Verbo("bin gefallen", "bist gefallen", "ist gefallen", "sind gefallen", "seid gefallen", "sind gefallen"), "fallen", "Se ha caído el tornillo-Die Schraube ist gefallen"];
+
+var befehlen = [new Verbo("befehle", "befiehlst", "befiehlt", "befehlen", "befehlt", "befehlen"), new Verbo("habe befohlen", "hast befohlen ", "hat befohlen", "haben befohlen", "habt befohlen", "haben befohlen"), "befehlen", "Te ordeno que te calles-Ich befehle dir zu schweigen"];
+
+var lesen = [new Verbo("lese", "liest", "liest", "lesen", "lest", "lesen"), new Verbo("habe gelesen", "hast gelesen", "hat gelesen", "haben gelesen", "habt gelesen", "haben gelesen"), "lesen", "Debes leer las instrucciones de seguridad-Du musst die Sicherheitsunterweisungen lesen"];
+
+var können = [new Verbo("kann", "kannst", "kann", "können", "könnt", "können"), new Verbo("konnte", "konntest", "konnte", "konnten", "konntet", "konnten"), "können", "No puedo desenroscar el tornillo con esta herramienta-Ich kann die Schraube mit diesem Werkzeug nicht abschrauben"];
+
+var mögen = [new Verbo("mag", "magst", "mag", "mögen", "mögt", "mögen"), new Verbo("mochte", "mochtest", "mochte", "mochten", "mochtet", "mochten"), "mögen", "Me gusta mi trabajo-Ich mag meine Arbeit"];
+
+var fragen = [new Verbo("frage", "fragst", "fragt", "fragen", "fragt", "fragen"), new Verbo("habe gefragt", "hast gefragt", "hat gefragt", "haben gefragt", "habt gefragt", "haben gefragt"), "fragen", "Ellos preguntan al camarero por la carta-Sie fragen den Kellner nach der Speisekarte"];
+
+var verstehen = [new Verbo("vertehe", "verstehst", "versteht", "verstehen", "versteht", "verstehen"), new Verbo("habe verstanden", "hast verstanden", "hat verstanden", "haben verstanden", "habt verstanden", "haben verstanden"), "verstehen", "No entiendo lo que quieres decir-Ich verstehe nicht was du meinst"];
+
+var wissen = [new Verbo("weiß", "weißt", "weiß", "wissen", "wisst", "wissen"), new Verbo("habe gewusst", "hast gewusst", "hat gewusst", "haben gewusst", "habt gewusst", "haben gewusst"), "wissen", "No sabe qué quiere hacer hoy-Er weiß nicht, was er heute machen will"];
+
+// var zünden = cambiar[new Verbo("zünde", "zündest", "zündet", "zünden", "zündet", "zünden"), new Verbo("habe ge-zündet", "hast ge-zündet", "habe ge-zündet", "haben ge-zündet", "habt ge-zündet", "haben ge-zündet"), "an·zünden", "Enciendo la cerilla-Ich zünde das Streichholz an"];
+
+var beenden = [new Verbo("beende", "beendest", "beendet", "beenden", "beendet", "beenden"), new Verbo("habe beendet", "hast beendet", "hat beendet", "haben beendet", "habt beendet", "haben beendet"), "beenden", "Finalizar una tarea-Eine Aufgabe beenden"];
+
+var zurücksetzen = [new Verbo("setze zurück", "setzt zurück", "setzt zurück", "setzen zurück", "setzt zurück", "setzen zurück"), new Verbo("habe zurückgesetzt", "hast zurückgesetzt", "hat zurückgesetzt", "haben zurückgesetzt", "habt zurückgesetzt", "haben zurückgesetzt"), "zurück·setzen", "Restablece los valores de fábrica hoy-Setz heute die Einstellungen auf die Werkeinstellungen zurück"];
+
+var hören = [new Verbo("höre", "hörst", "hört", "hören", "hört", "hören"), new Verbo("habe gehört", "hast gehört", "hat gehört", "haben gehört", "habt gehört", "haben gehört"), "hören", "Con los tapones para los oídos no se oye nada-Mit der Gehörschutzstöpseln kann man nichts hören"];
+
+var prüfen = [new Verbo("prüfe", "prüfst", "prüft", "prüfen", "prüft", "prüfen"), new Verbo("habe geprüft", "hast geprüft", "hat geprüft", "haben geprüft", "habt geprüft", "haben geprüft"), "prüfen", "Estos instrumentos de medición han sido evaluados oficialmente-Diese Meßgeräte sind amtlich geprüft"];
+
+var verpassen = [new Verbo("verpasse", "verpasst", "verpasst", "verpassen", "verpasst", "verpassen"), new Verbo("habe verpasst", "hast verpasst", "habe verpasst", "haben verpasst", "habt verpasst", "haben verpasst"), "verpassen", "Se me ha escapado el bus-Ich habe den Bus verpasst"];
+
+var laufen = [new Verbo("laufe", "läufst", "läuft", "laufen", "lauft", "laufen"), new Verbo("bin gelaufen ", "bist gelaufen", "ist gelaufen", "sind gelaufen", "seid gelaufen", "sind gelaufen"), "laufen", "Corro muy rápido-Ich laufe sehr schnell"];
+
+var füttern = [new Verbo("füttere", "fütterst", "füttert", "füttern", "füttert", "füttern"), new Verbo("habe gefüttert", "hast gefüttert", "hat gefüttert", "haben gefüttert", "habt gefüttert", "haben gefüttert"), "füttern", "Hoy tienes que dar de comer a los conejos-Heute musst du die Kaninchen füttern"];
+
+var erledigen = [new Verbo("erledige", "erledigst", "erledigt", "erledigen", "erledigt", "erledigen"), new Verbo("habe erledigt", "hast erledigt", "hat erledigt", "haben erledigt", "habt erledigt", "haben erledigt"), "erledigen", "Las tareas deben realizarse como muy tarde después de la cena-Die Aufgaben müssen spätestens nach dem Abendessen erledigt werden"];
+
+var bringen = [new Verbo("bringe", "bringst", "bringt", "bringen", "bringt", "bringen"), new Verbo("habe gebracht", "hast gebracht", "hat gebracht", "haben gebracht", "habt gebracht", "haben gebracht"), "bringen", "Trae los huevos dentro-Bring die Eier rein"];
+
+var unterlassen = [new Verbo("lasse unter", "lässt unter", "lässt unter", "lassen unter", "lasst unter", "lassen unter"), new Verbo("habe untergelassen", "hast untergelassen", "hat untergelassen", "haben untergelassen", "habt untergelassen", "haben untergelassen"), "unterlassen", "Deja de hacer eso-Unterlass das!"];
+
+var bleiben = [new Verbo("bleibe", "bleibst", "bleibt", "bleiben", "bleibt", "bleiben"), new Verbo("bin geblieben", "bist geblieben", "ist geblieben", "sind geblieben", "seid geblieben", "sind geblieben"), "bleiben", "¿Te quedas con nosotros?-Bleibst du mit uns?"];
+
+var kehren = [new Verbo("kehre", "kehrst", "kehrt", "kehren", "kehrt", "kehren"), new Verbo("habe gekehrt", "hast gekehrt", "hat gekehrt", "haben gekehrt", "habt gekehrt", "haben gekehrt"), "kehren", "El tren va a Fráncfort y vuelve desde allí-Der Zug fährt nach Frankfurt und kehrt dort"];
+
+var wischen = [new Verbo("wische", "wischst", "wischt", "wischen", "wischt", "wischen"), new Verbo("habe gewischt", "hast gewischt", "hat gewischt", "haben gewischt", "habt gewischt", "haben gewischt"), "wischen", "Limpia la mesa con un trapo-wische den Tisch mit einem Lappen"];
+
+var bestätigen = [new Verbo("bestätige", "bestätigst", "bestätigt", "bestätigen", "bestätigt", "bestätigen"), new Verbo("habe bestätigt", "hast bestätigt", "hat bestätigt", "haben bestätigt", "habt bestätigt", "haben bestätigt"), "bestätigen", "He comprobado los valores-Ich habe die Werte bestätigt"];
+
+var umziehen = [new Verbo("ziehe um", "ziehst um", "zieht um", "ziehen um", "zieht um", "ziehen um"), new Verbo("habe umgezogen", "hast umgezogen", "hat umgezogen", "haben umgezogen", "habt umgezogen", "haben umgezogen"), "um·ziehen", "Me cambio de ropa para trabajar-Zum Arbeiten ziehe ich mich um"];
+
+var backen = [new Verbo("backe", "bäckst", "bäckt", "backen", "backt", "backen"), new Verbo("habe gebacken", "hast gebacken", "hat gebacken", "haben gebacken", "habt gebacken", "haben gebacken"), "backen", "Pon a hornear la pizza-Back die Pizza"];
+
+var antworten = [new Verbo("antworte", "antwortest", "antwortet", "antworten", "antwortet", "antworten"), new Verbo("habe geantwortet", "hast geantwortet", "hat geantwortet", "haben geantwortet", "habt geantwortet", "haben geantwortet"), "antworten", "Después de estos ejercicios, responde a las preguntas-Beantworte die Fragen nach den Übungen"];
+
+var ändern = [new Verbo("ändere", "änderst", "ändert", "ändern", "ändert", "ändern"), new Verbo("habe geändert", "hast geändert", "hat geändert", "haben geändert", "habt geändert", "haben geändert"), "ändern", "Algunas personas no cambian nunca-Manche Menschen ändern sich nie"];
+
+var abbiegen = [new Verbo("biege ab", "biegst ab", "biegt ab", "biegen ab", "biegt ab", "biegen ab"), new Verbo("bin abgebogen", "bist abgebogen", "ist abgebogen", "sind abgebogen", "seid abgebogen", "sind abgebogen"), "ab·biegen", "Gira a la izquierda-Bieg nach links ab", "nach links abbiegen-girar a la izquierda&nach rechts abbiegen-girar a la derecha&von der Autobahn abbiegen-tomar una salida en la autovía"];
+
+var parken = [new Verbo("parke", "parkst", "parkt", "parken", "parkt", "parken"), new Verbo("habe geparkt", "hast geparkt", "hat geparkt", "haben geparkt", "habt geparkt", "haben geparkt"), "parken", "Aparco el coche-Ich parke das Auto"];
+
+var bremsen = [new Verbo("bremse", "bremst", "bremst", "bremsen", "bremst", "bremsen"), new Verbo("habe gebremst", "hast gebremst", "hat gebremst", "haben gebremst", "habt gebremst", "haben gebremst"), "bremsen", "El conductor del autobús dio un frenazo-Der Busfahrer hatte zu scharf gebremst"];
+
+var demontieren = [new Verbo("demontiere", "demontierst", "demontiert", "demontieren", "demontiert", "demontieren"), new Verbo("habe demontiert", "hast demontiert", "hat demontiert", "haben demontiert", "habt demontiert", "haben demontiert"), "demontieren", "Desmonto el coche-Ich demontiere das Auto"];
+
+var überprüfen = [new Verbo("überprüfe", "überprüfst", "überprüft", "überprüfen", "überprüft", "überprüfen"), new Verbo("habe überprüft", "hast überprüft", "hat überprüft", "haben überprüft", "habt überprüft", "haben überprüft"), "überprüfen", "Compruebo que está correcto el cálculo-Ich überprüfe die Berechnung"];
+
+var ausfüllen = [new Verbo("fülle aus", "füllst aus", "füllt aus", "füllen aus", "füllt aus", "füllen aus"), new Verbo("habe ausgefüllt", "hast ausgefüllt", "hat ausgefüllt", "haben ausgefüllt", "habt ausgefüllt", "haben ausgefüllt"), "ausfüllen", "Rellenas el formulario-Du füllst das Formular aus"];
+
+var brechen = [new Verbo("breche", "brichst", "brecht", "brechen", "brecht", "brechen"), new Verbo("habe gebrochen", "hast gebrochen", "hat gebrochen", "haben gebrochen", "habt gebrochen", "haben gebrochen"), "brechen", "Me he roto una pierna en el trabajo-Ich habe mir ein Bein auf der Arbeit gebrochen"];
+
+var graben = [new Verbo("graben", "gräbst", "gräbt", "graben", "grabt", "graben"), new Verbo("habe gegraben", "hast gegraben", "hat gegraben", "haben gegraben", "habt gegraben", "haben gegraben"), "graben", "Cavo con la pala-Ich grabe mit der Schaufel"];
+
+var abbrühen = [new Verbo("brühe ab", "brühst ab", "brüht ab", "brühen ab", "brüht ab", "brühen ab"), new Verbo("habe abgebrüht", "hast abgebrüht", "hat abgebrüht", "haben abgebrüht", "habt abgebrüht", "haben abgebrüht"), "ab·brühen", "Primero cuece los tomates y después la carne-Zuerst brühe die Tomaten und dann das Fleisch ab"];
+
+var lernen = [new Verbo("lerne", "lernst", "lernt", "lernen", "lernt", "lernen"), new Verbo("habe gelernt", "hast gelernt", "hat gelernt", "haben gelernt", "habt gelernt", "haben gelernt"), "lernen", "Para trabajar en Alemania se debe aprender alemán-Um in Deutschland zu arbeiten, muss man Deutsch lernen"];
+
+var vorlesen = [new Verbo("lese vor", "liest vor", "liest vor", "lesen vor", "lest vor", "lesen vor"), new Verbo("habe vorgelesen", "hast vorgelesen", "hat vorgelesen", "haben vorgelesen", "habt vorgelesen", "haben vorgelesen"), "vorlesen", "Leo el libro en voz alta-Ich lese das Buch vor"];
+
+var annehmen = [new Verbo("nehme an", "nimmst an", "nimmt an", "nehmen an", "nehmt an", "nehmen an"), new Verbo("habe angenommen", "hast angenommen", "hat angenommen", "haben angenommen", "habt angenommen", "haben angenommen"), "annehmen", "Acepto el contrato-Ich nehme den Vertrag an"];
+
+var abbrechen = [new Verbo("breche ab", "brichst ab", "bricht ab", "brechen ab", "brecht ab", "brechen ab"), new Verbo("habe abgebrochen", "hast abgebrochen", "hat abgebrochen", "haben abgebrochen", "habt abgebrochen", "haben abgebrochen"), "abbrechen", "Él cancela la compra-Er bricht den Kauf ab"];
+
+var registrieren = [new Verbo("registriere", "registrierst", "registriert", "registrieren", "registriert", "registrieren"), new Verbo("habe registriert", "hast registriert", "hat registriert", "haben registriert", "habt registriert", "haben registriert"), "registrieren", "Este instrumento de medición registra la humedad del aire-Dieses Messgerät registriert die Luftfeuchtigkeit"];
+
+var senden = [new Verbo("sende", "sendest", "sendet", "senden", "sendet", "senden"), new Verbo("habe gesendet", "hast gesendet", "hat gesendet", "haben gesendet", "habt gesendet", "haben gesendet"), "senden", "Envías el correo electrónico al profesor-Du sendest die E-Mail an den Lehrer"];
+
+var bauen = [new Verbo("baue", "baust", "baut", "bauen", "baut", "bauen"), new Verbo("habe gebaut", "hast gebaut", "hat gebaut", "haben gebaut", "habt gebaut", "haben gebaut"), "bauen", "Construyo casas de madera-Ich baue Holzhäuser"];
+
+var hobeln = [new Verbo("hobele", "hobelst", "hobelt", "hobeln", "hobelt", "hobeln"), new Verbo("habe gehobelt", "hast gehobelt", "hat gehobelt", "haben gehobelt", "habt gehobelt", "haben gehobelt"), "hobeln", "Cepillamos la madera-Wir hobeln das Holz"];
+
+var surfen = [new Verbo("surfe", "surfst", "surft", "surfen", "surft", "surfen"), new Verbo("habe gesurft", "hast gesurft", "hat gesurft", "haben gesurft", "habt gesurft", "haben gesurft"), "surfen", "Para encontrar esa información tienes que navegar por Internet-Um diese Informationen zu finden, musst du im Internet surfen"];
+
+var herunterladen = [new Verbo("lade herunter", "lädst herunter", "lädt herunter", "laden herunter", "ladet herunter", "laden herunter"), new Verbo("habe heruntergeladen", "hast heruntergeladen", "hat heruntergeladen", "haben heruntergeladen", "habt heruntergeladen", "haben heruntergeladen"), "herunterladen", "descargar películas está prohibido-Filme herunterzuladen ist bestrafbar"];
+
+var erstellen = [new Verbo("erstelle", "erstellst", "erstellt", "erstellen", "erstellt", "erstellen"), new Verbo("habe erstellt", "hast erstellt", "hat erstellt", "haben erstellt", "habt erstellt", "haben erstellt"), "erstellen", "Creo una carpeta nueva-Ich erstelle einen neuen Ordner"];
+
+var auswählen = [new Verbo("wähle aus", "wählst aus", "wählt aus", "wählen aus", "wählt aus", "wählen aus"), new Verbo("habe ausgewählt", "hast ausgewählt", "hat ausgewählt", "haben ausgewählt", "habt ausgewählt", "haben ausgewählt"), "auswählen", "Selecciona los archivos del escritorio-Wähle die Dateien vom Desktop aus"];
+
+var mischen = [new Verbo("mische", "mischst", "mischt", "mischen", "mischt", "mischen"), new Verbo("habe gemischt", "hast gemischt", "hat gemischt", "haben gemischt", "habt gemischt", "haben gemischt"), "mischen", "Para obtener cemento se deben mezclar varias sustancias-Um Zement zu herstellen, muss man verschiedene Substanzen mischen"];
+
+var lösen = [new Verbo("löse", "löst", "löst", "lösen", "löst", "lösen"), new Verbo("habe gelöst", "hast gelöst", "hat gelöst", "haben gelöst", "habt gelöst", "haben gelöst"), "lösen", "Afloja los tornillos de la puerta-Löse die Schrauben von der Tür"];
+
+// var anschliessen = cambiar[new Verbo("schließe", "schließt", "schließt", "schließen", "schließt", "schließen"), new Verbo("habe angeschlossen", "hast angeschlossen", "hat angeschlossen", "haben angeschlossen", "habt angeschlossen", "haben angeschlossen"), "anschließen", "Conecta el dispositivo USB al ordenador-Schließe das USB-Gerät am Computer an"];
+
+var verwerten = [new Verbo("verwerte", "verwertst", "verwertet", "verwerten", "verwertet", "verwerten"), new Verbo("habe verwertet", "hast angeschlossen", "hat angeschlossen", "haben angeschlossen", "habt angeschlossen", "haben angeschlossen"), "verwerten", "Él recicla el material-Er verwertet das Material wieder"];
+
+var frühstücken = [new Verbo("frühstücke", "frühstückst", "frühstückt", "frühstücken", "frühstückt", "frühstücken"), new Verbo("habe gefrühstückt", "hast gefrühstückt", "hat gefrühstückt", "haben gefrühstückt", "habt gefrühstückt", "haben gefrühstückt"), "frühstücken", "Nosotros desayunamos en el trabajo-Wir frühstücken auf der Arbeit"];
+
+var feilen = [new Verbo("feile", "feilst", "feilt", "feilen", "feilt", "feilen"), new Verbo("habe gefeilt", "hast gefeilt", "hat gefeilt", "haben gefeilt", "habt gefeilt", "haben gefeilt"), "feilen", "Limo metal-Ich feile Metalle"];
+
+var abgraten = [new Verbo("grate ab", "gratest ab", "gratet ab", "graten ab", "gratet ab", "graten ab"), new Verbo("habe abgegratet", "hast abgegratet", "hat abgegratet", "haben abgegratet", "habt abgegratet", "haben abgegratet"), "abgraten", "He pulido metales-Ich habe Metalle abgegratet"];
+
+var kriegen = [new Verbo("kriege", "kriegst", "kriegt", "kriegen", "kriegt", "kriegen"), new Verbo("habe gekriegt", "hast gekriegt", "hat gekriegt", "haben gekriegt", "habt gekriegt", "haben gekriegt"), "kriegen", "conseguir un nuevo puesto de trabajo- Eine neue Arbeitsstelle kriegen"];
+
+var verschmutzen = [new Verbo("verschmutze", "verschmutzt", "verschmutzt", "verschmutzen", "verschmutzt", "verschmutzen"), new Verbo("habe verschmutzt", "hast verschmutzt", "hat verschmutzt", "haben verschmutzt", "habt verschmutzt", "haben verschmutzt"), "verschmutzen", "Me han ensueciado el salón con los zapatos de trabajo-Sie haben mein Wohnzimmer mit ihren Arbeitsschuhen versschmutzt"];
+
+var pflanzen = [new Verbo("pflanze", "pflanzt", "pflanzt", "pflanzen", "pflanzt", "pflanzen"), new Verbo("habe gepflanzt", "hast gepflanzt", "hat gepflanzt", "haben gepflanzt", "habt gepflanzt", "haben gepflanzt"), "pflanzen", "Tenemos que plantar 20 flores nuevas-Wir müssen 20 neuen Blumen pflanzen"];
+
+var fixieren = [new Verbo("fixiere", "fixierst", "fixiert", "fixieren", "fixiert", "fixieren"), new Verbo("habe fixiert", "hast fixiert", "hat fixiert", "haben fixiert", "habt fixiert", "haben fixiert"), "fixieren", "Clava la puntilla en el marco-Fixiere die Spitzenbordüre in der Rahmen"];
+
+var sagen = [new Verbo("sage", "sagst", "sagt", "sagen", "sagt", "sagen"), new Verbo("habe gesagt", "hast gesagt", "hat gesagt", "haben gesagt", "habt gesagt", "haben gesagt"), "sagen", "Te digo como se hace esto-Ich sage dir, wie das gemacht wird"];
+
+var wollen = [new Verbo("will", "willst", "will", "wollen", "wollt", "wollen"), new Verbo("wollte", "wolltest", "wollte", "wollten", "wolltet", "wollten"), "wollen", "¿quieres las bridas?-Willst du die Kabelbinder?"];
+
+var müssen = [new Verbo("muss", "musst", "muss", "müssen", "müsst", "müssen"), new Verbo("musste", "musstest", "musste", "mussten", "musstet", "mussten"), "müssen", "Tengo que fijar las tres líneas eléctricas-Ich muss die drei Stromleitungen reparieren"];
+
+var kühlen = [new Verbo("kühle", "kühlst", "kühlt", "kühlen", "kühlt", "kühlen"), new Verbo("habe gekühlt", "hast gekühlt", "hat gekühlt", "haben gekühlt", "habt gekühlt", "haben gekühlt"), "kühlen", "El frigorífico no enfría-Der Kühlschrank kühlt nicht"];
+
+var wärmen = [new Verbo("wärme", "wärmst", "wärmt", "wärmen", "wärmt", "wärmen"), new Verbo("habe gewärmt", "hast gewärmt", "hat gewärmt", "haben gewärmt", "habt gewärmt", "haben gewärmt"), "wärmen", "Apenas calienta el sol en el norte de Europa-Die Sonne in Nordeuropa wärmt kaum"];
+
+var erhalten = [new Verbo("erhalte", "erhältst", "erhält", "erhalten", "erhalt", "erhalten"), new Verbo("habe erhalten", "hast erhalten", "hat erhalten", "haben erhalten", "habt erhalten", "haben erhalten"), "erhalten", "Recibí el correo ayer-Ich habe gestern die Post erhalten"];
+
+var anhängen = [new Verbo("hänge an", "hängst an", "hängt an", "hängen an", "hängt an", "hängen an"), new Verbo("habe angehängt", "hast angehängt", "hat angehängt", "haben angehängt", "habt angehängt", "haben angehängt"), "anhängen", "Adjunto la foto al correo-Ich hänge das Foto an die Mail an"];
+
+var bearbeiten = [new Verbo("bearbeite", "bearbeitest", "bearbeitet", "bearbeiten", "bearbeitet", "bearbeiten"), new Verbo("habe bearbeitet", "hast bearbeitet", "hat bearbeitet", "haben bearbeitet", "habt bearbeitet", "haben bearbeitet"), "bearbeiten", "Edito la foto para que me quede mejor-Ich bearbeite das Foto, damit es besser aussieht"];
+
+var erkunden = [new Verbo("erkunde", "erkundest", "erkundet", "erkunden", "erkundet", "erkunden"), new Verbo("habe erkundet", "hast erkundet", "hat erkundet", "haben erkundet", "habt erkundet", "haben erkundet"), "erkunden", "Explora el codigo para ver el error-Erkunden Sie den Code, um den Fehler zu sehen"];
+
+var chatten = [new Verbo("chatte", "chattest", "chattet", "chatten", "chattet", "chatten"), new Verbo("habe gechattet", "hast gechattet", "hat gechattet", "haben gechattet", "habt gechattet", "haben gechattet"), "chatten", "Chateo con Mateo-Ich chatte mit Mateo"];
+
+var modifizieren = [new Verbo("modifiziere", "modifizierst", "modifiziert", "modifizieren", "modifiziert", "modifizieren"), new Verbo("habe modifiziert", "hast modifiziert", "hat modifiziert", "haben modifiziert", "habt modifiziert", "haben modifiziert"), "modifizieren", "he modificado el documento-Ich habe das Dokument modifiziert"];
+
+var hochladen = [new Verbo("lade hoch", "lädst hoch", "lädt hoch", "laden hoch", "ladet hoch", "laden hoch"), new Verbo("habe hochgeladen", "hast hochgeladen", "hat hochgeladen", "haben hochgeladen", "habt hochgeladen", "haben hochgeladen"), "hochladen", "Subo los datos a la nube-Ich lade die Daten in die Cloud hoch"];
+
+var aktualisieren = [new Verbo("aktualisiere", "aktualisierst", "aktualisiert", "aktualisieren", "aktualisiert", "aktualisieren"), new Verbo("habe aktualisiert", "hast aktualisiert", "hat aktualisiert", "haben aktualisiert", "habt aktualisiert", "haben aktualisiert"), "aktualisieren", "Actualizar la informacion de una página web-Informatieonen auf einer Webseite aktualisieren", "das Programm aktualisieren-actualizar el programa&die Webseite aktualisieren-actualizar la página&Daten aktualisieren-actualizar datos", "1"];
+
+var entwerfen = [new Verbo("entwerfe", "entwirfst", "entwirft", "entwerfen", "entwerft", "entwerfen"), new Verbo("habe entworfen", "hast entworfen", "hat entworfen", "haben entworfen", "habt entworfen", "haben entworfen"), "Esbozar un programa-Ein Programm entwerten", "1"];
+
+var regeln = [new Verbo("regle", "regelst", "regelt", "regeln", "regelt", "regeln"), new Verbo("habe geregelt", "hast geregelt", "hat geregelt", "haben geregelt", "habt geregelt", "haben geregelt"), "regeln", "Ese aparato regula la temperatura-Dieses Gerät dient dazu, die Temperatur zu regeln"];
+
+var vorbereiten = [new Verbo("bereite vor", "bereitest vor", "bereitet vor", "bereiten vor", "bereitet vor", "bereiten vor"), new Verbo("habe vorbereitet", "hast vorbereitet", "hat vorbereitet", "haben vorbereitet", "habt vorbereitet", "haben vorbereitet"), "vorbereiten", "Preparar el material-Das Material vorbereiten"];
+
+var erproben = [new Verbo("erprobe", "erprobst", "erprobt", "erproben", "erprobt", "erproben"), new Verbo("habe erprobt", "hast erprobt", "hat erprobt", "haben erprobt", "habt erprobt", "haben erprobt"), "erproben", "Probaron el nuevo material-Sie haben das neue Material erprobt"];
+
+var verschieben = [new Verbo("verschiebe", "verschiebst", "verschiebt", "verschieben", "verschiebt", "verschieben"), new Verbo("habe verschoben", "hast verschoben", "hat verschoben", "haben verschoben", "habt verschoben", "haben verschoben"), "verschieben", "Desplazar la escalera un par de metros-Die Leiter ein paar Meter verschieben"];
+
+var brennen = [new Verbo("brenne", "brennst", "brennt", "brennen", "brennt", "brennen"), new Verbo("habe gebrannt", "hast gebrannt", "hat gebrannt", "haben gebrannt", "habt gebrannt", "haben gebrannt"), "brennen", "el sol quema-die Sonne brennt"];
+
+var erinnern = [new Verbo("erinnere mich", "erinnerst dich", "erinnert sich", "erinnern uns", "erinnert euch", "erinnern sich"), new Verbo("habe mich erinnert", "hast dich erinnert", "hat sich erinnert", "haben uns erinnert", "habt euch erinnert", "haben sich erinnert"), "erinnern", "Lo siento, no me acuerdo-Es tut mir leid, ich erinnere mich nicht"];
+
+// var einsladen cambiar= [new Verbo("lade ein", "lädst ein", "lädt ein", "laden ein", "ladet ein", "laden ein"), new Verbo("habe eingeladen", "hast eingeladen", "habe eingeladen", "haben eingeladen", "habt eingeladen", "haben eingeladen"), "einsladen", "Invitamos a Julian a tomar una cerveza?-Laden wir Julian ein, ein Bier zu trinken?"];
+
+var zahlen = [new Verbo("zahle", "zahlst", "zahlt", "zahlen", "zahlt", "zahlen"), new Verbo("habe gezahlt", "hast gezahlt", "hat gezahlt", "haben gezahlt", "habt gezahlt", "haben gezahlt"), "zahlen", "Ya he pagado la cuenta-Ich habe die Rechnung schon bezahlt"];
+
+var besuchen = [new Verbo("besuche", "besuchst", "besucht", "besuchen", "besucht", "besuchen"), new Verbo("habe besucht", "hast besucht", "hat besucht", "haben besucht", "habt besucht", "haben besucht"), "besuchen", "La semana que viene voy a Suiza a visitar a mi hermano-Die nächste Woche fahre ich nach die Schweiz, um meinen Bruder zu besuchen"];
+
+var spielen = [new Verbo("spiele", "spielst", "spielt", "spielen", "spielt", "spielt"), new Verbo("habe gespielt", "hast gespielt", "hat gespielt", "haben gespielt", "habt gespielt", "haben gespielt"), "spielen", "No puedes jugar fuera-Du darfst nicht draußen spielen"];
+
+var kapieren = [new Verbo("kapiere", "kapierst", "kapiert", "kapieren", "kapiert", "kapieren"), new Verbo("habe kapiert", "hast kapiert", "hat kapiert", "haben kapiert", "habt kapiert", "haben kapiert"), "kapieren", "Lo has entendido rápido-Du hast es schnell kapiert"];
+
+var hinsetzen = [new Verbo("setze hin", "setzt hin", "setzt hin", "setzen hin", "setzt hin", "setzen hin"), new Verbo("habe hingesetzt", "hast hingesetzt", "hat hingesetzt", "haben hingesetzt", "habt hingesetzt", "haben hingesetzt"), "hinsetzen", "Siéntate por favor!-Setz dich bitte hin!"];
+
+var wegnehmen = [new Verbo("nehme weg", "nimmst weg", "nimmt weg", "nehmen weg", "nehmt weg", "nehmen weg"), new Verbo("habe weggenommen", "hast weggenommen", "hat weggenommen", "haben weggenommen", "habt weggenommen", "haben weggenommen"), "wegnehmen", "No te lo lleves-Nimm es nicht weg!"];
+
+// var begränden = [new Verbo("", "", "", "", "", ""), new Verbo("habe ", "hast ", "habe ", "haben ", "habt ", "haben "), "", ""];
+
+var stützen = [new Verbo("stütze", "stützt", "stützt", "stützen", "stützt", "stützen"), new Verbo("habe gestützt", "hast gestützt", "hat gestützt", "haben gestützt", "habt gestützt", "haben gestützt"), "stützen", "Apuntalo el techo-Ich stütze das Dach"];
+// (?)
+
+var passen = [new Verbo("passe", "passt", "passt", "passen", "passt", "passen"), new Verbo("habe gepasst", "hast gepasst", "hat gepasst", "haben gepasst", "habt gepasst", "haben gepasst"), "passen", "La llave no cabe en la cerradura-Der Schlüssel passt nicht ins Schloss"];
+
+var geben = [new Verbo("gebe", "gibst", "gibt", "geben", "gebt", "geben"), new Verbo("habe gegeben", "hast gegeben", "hat gegeben", "haben gegeben", "habt gegeben", "haben gegeben"), "geben", "Dame el martillo-Gib mir den Hammer"];
+
+var sein = [new Verbo("bin", "bist", "ist", "sind", "seid", "sind"), new Verbo("war", "warst", "war", "waren", "wart", "waren"), "sein", "Soy electricista-Ich bin Elektriker"];
+
+var bewegen = [new Verbo("bewege", "bewegst", "bewegt", "bewegen", "bewegt", "bewegen"), new Verbo("habe bewegt", "hast bewegt", "hat bewegt", "haben bewegt", "habt bewegt", "haben bewegt"), "bewegen", "Mueve el cursor-Beweg den Cursor"];
+
+var abschleifen = [new Verbo("schleife ab", "schleifst ab", "schleift ab", "schleifen ab", "schleift ab", "schleifen ab"), new Verbo("habe abgeschliffen", "hast abgeschliffen", "hat abgeschliffen", "haben abgeschliffen", "habt abgeschliffen", "haben abgeschliffen"), "abschleifen", "Primero lijamos la madera y después la barnizamos-Zuerst schleifen wir das Holz ab und danach lackieren wir es", "den Tisch abschleifen-lijar la mesa&die Tür abschleifen-lijar la puerta&die Bank abschleifen-lijar el banco"];
+
+var rotieren = [new Verbo("rotiere", "retierst", "rotiert", "rotieren", "rotiert", "rotieren"), new Verbo("habe rotiert", "hast rotiert", "hat rotiert", "haben rotiert", "habt rotiert", "haben rotiert"), "rotieren", "El eje rota-Die Achse rotiert"];
+
+    var matriz = [abbiegen, abschalten, abschleifen, aktualisieren, anmachen];
+    matriz.sort();
+
+    var bien = 0;
+    var mal = 0;
+
+    var a = document.getElementById("txtResultado");
+    var a2 = document.getElementById("txtVerbo");
+    function Verbo(ich, du, er, wir, ihr, sie) {
+        this.ich = ich;
+        this.du = du;
+        this.er = er;
+        this.wir = wir;
+        this.ihr = ihr;
+        this.sie = sie;
+
+    }
+
+    var personas = ["ich", "du", "er, sie, es", "wir", "ihr", "sie, Sie"]
+    var botones = document.getElementById("btnO");
+    botones.onclick = function () {
+        var a = document.getElementById("txtResultado");
+        a.value = a.value + "ö";
+    }
+    var botones = document.getElementById("btnB");
+    botones.onclick = function () {
+        var a = document.getElementById("txtResultado");
+        a.value = a.value + "ß";
+    }
+
+    var botones = document.getElementById("btnU");
+    botones.onclick = function () {
+        var a = document.getElementById("txtResultado");
+        a.value = a.value + "ü";
+    }
+
+    var solucion = document.getElementById("btnSolucion");
+
+    solucion.onclick = function () {
+        for (i = 0; i < matriz.length; i++) {
+            if (a2.value == matriz[i][2]) {
+                if (perso == "ich") {
+                    a.value = matriz[i][tempo].ich;
+                }
+                else if (perso == "du") {
+                    a.value = matriz[i][tempo].du;
+                }
+                else if (perso == "er, sie, es") {
+                    a.value = matriz[i][tempo].er;
+                }
+                else if (perso == "wir") {
+                    a.value = matriz[i][tempo].wir;
+                }
+                else if (perso == "ihr") {
+                    a.value = matriz[i][tempo].ihr;
+                }
+                else if (perso == "sie, Sie") {
+                    a.value = matriz[i][tempo].sie;
+                }
+            }
+        }
+        alert("Se le sumara un error");
+        bien -= 1;
+        mal += 1;
+    }
+
+    var botones = document.getElementById("btnA");
+
+    botones.onclick = function () {
+        var a = document.getElementById("txtResultado");
+        a.value = a.value + "ä";
+    }
+
+    var botones = document.getElementById("btnMostrar");
+    botones.onclick = function () {
+        var a = document.getElementById("txtVerbo");
+
+        for (var i = 0; i < 100; i++) {
+            if (a.value == matriz[i][2]) {
+                open("verbos/" + a.value + ".html");
+                break;
+            }
+        }
+    }
+    var botones = document.getElementById("btnOtro");
+
+    var tempo = 0;
+    botones.onclick = function () {
+
+        var a = document.getElementById("txtVerbo");
+        var b = document.getElementById("txtPersona");
+        var c = document.getElementById("txtTiempo");
+        var d = document.getElementById("txtResultado");
+        var numVerbo = 0;
+        d.value = "";
+        var adelante = false;
+        var echo3 = false;
+        var echo2 = false;
+        var echo = false;
+        num = Math.floor((Math.random() * 10));
+        while (echo3 == false) {
+            num = Math.floor((Math.random() * 10));
+            if (num < matriz.length) {
+                if (document.f1.chc.value == "1") {
+                    if (num < matriz.length) {
+                        if (matriz[num][4] == "1") {
+                            numVerbo = num;
+                            a.value = matriz[num][2];
+                            echo3 = true;
+                            adelante = true;
+                        }
+                    }
+                }
+                else if (document.f1.chc.value == "2") {
+                    if (matriz[num][4] == "2") {
+                        numVerbo = num;
+                        a.value = matriz[num][2];
+                        echo3 = true;
+                        adelante = true;
+                    }
+                }
+                else if (document.f1.chc.value == "3") {
+                    if (matriz[num][4] == "3") {
+                        numVerbo = num;
+                        a.value = matriz[num][2];
+                        echo3 = true;
+                        adelante = true;
+                    }
+                }
+                else if (document.f1.chc.value == "4") {
+                    if (matriz[num][4] == "4") {
+                        numVerbo = num;
+                        a.value = matriz[num][2];
+                        echo3 = true;
+                        adelante = true;
+                    }
+                }
+                else if (document.f1.chc.value == "5") {
+                    if (matriz[num][4] == "5") {
+                        numVerbo = num;
+                        a.value = matriz[num][2];
+                        echo3 = true;
+                        adelante = true;
+                    }
+                }
+                else {
+                    alert("Tiene que seleccionar algun campo")
+                    echo3 = true;
+                    echo2 = true;
+                    echo = true;
+                }
+            }
+        }
+
+        while (echo2 == false) {
+            var num2 = Math.round(Math.random() * 10);
+            if (num2 < 6) {
+                perso = personas[num2];
+                b.value = personas[num2];
+                echo2 = true;
+            }
+        }
+
+
+        while (echo == false) {
+
+            var num3 = Math.round(Math.random() * 10);
+            if (num3 == 0) {
+                tempo = 0;
+                c.value = "presente";
+                echo = true;
+            }
+            else if (num3 == 1) {
+                tempo = 1;
+                c.value = "pretérito perfecto";
+                echo = true;
+            }
+        }
+        if (adelante) {
+            var kl = document.getElementById("span");
+            kl.innerText = matriz[numVerbo][3].split("-")[0];
+
+            var lk = document.getElementById("span2");
+            lk.innerText = matriz[numVerbo][3].split("-")[1];
+        }
+        var q = querySelectorAll("input[type:radio]");
+    for(i=0;i<q.length;i++){
+        if(q[i].checked == true){
+            this.style.color = blue;
+        }
+    }
+    }
+
+    var boton = document.getElementById("btnComprobar");
+
+    boton.onclick = function () {
+
+        for (i = 0; i < matriz.length; i++) {
+            if (a2.value == matriz[i][2]) {
+                if (perso == "ich") {
+                    if (a.value == matriz[i][tempo].ich) {
+                        bien += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Ejercicio correcto, el porcentaje de aciertos es: " + procien + "%");
+                        break;
+                    }
+                    else {
+                        mal += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Esta mal... El numero de aciertos es: " + procien + "%");
+                        break;
+                    }
+                }
+                else if (perso == "du") {
+                    if (a.value == matriz[i][tempo].du) {
+                        bien += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Ejercicio correcto, el porcentaje de aciertos es: " + procien + "%");
+                        break;
+                    }
+                    else {
+                        mal += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Esta mal... El numero de aciertos es: " + procien + "%");
+                        break;
+                    }
+                }
+                else if (perso == "er, sie, es") {
+                    if (a.value == matriz[i][tempo].er) {
+                        bien += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Ejercicio correcto, el porcentaje de aciertos es: " + procien + "%");
+                        break;
+                    }
+                    else {
+                        mal += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Esta mal... El numero de aciertos es: " + procien + "%");
+                        break;
+                    }
+                }
+                else if (perso == "wir") {
+                    if (a.value == matriz[i][tempo].wir) {
+                        bien += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Ejercicio correcto, el porcentaje de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                    else {
+                        mal += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Esta mal... El numero de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                }
+                else if (perso == "ihr") {
+                    if (a.value == matriz[i][tempo].ihr) {
+                        bien += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Ejercicio correcto, el porcentaje de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                    else {
+                        mal += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Esta mal... El numero de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                }
+                else if (perso == "sie, Sie") {
+                    if (a.value == matriz[i][tempo].sie) {
+                        bien += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Ejercicio correcto, el porcentaje de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                    else {
+                        mal += 1;
+                        procien = Math.round((bien / (bien + mal)) * 100);
+                        alert("Esta mal... El numero de aciertos es: " + procien + "%");
+
+                        break;
+                    }
+                }
+                else {
+                    alert("algo va mal");
+                }
+
+
+            }
+        }
+
+
+
+    }
+
+    window.onload = function () {
+        var a = document.getElementById("txtVerbo");
+        var b = document.getElementById("txtPersona");
+        var c = document.getElementById("txtTiempo");
+        var numVerbo = 0;
+
+        var echo3 = false;
+        num = Math.round(Math.random() * 100);
+        while (echo3 == false) {
+            num = Math.round(Math.random() * 100);
+            if (num < matriz.length) {
+
+                numVerbo = num
+                a.value = matriz[num][2];
+                echo3 = true;
+            }
+        }
+
+        var echo2 = false;
+        while (echo2 == false) {
+            var num2 = Math.round(Math.random() * 10);
+            if (num2 < 6) {
+                perso = personas[num2];
+                b.value = personas[num2];
+                echo2 = true;
+
+            }
+        }
+
+        var echo = false;
+        while (echo == false) {
+
+            var num3 = Math.round(Math.random() * 10);
+            if (num3 == 0) {
+                c.value = "presente";
+                echo = true;
+                tempo = 0;
+            }
+            else if (num3 == 1) {
+                tempo = 1;
+                c.value = "pretérito perfecto";
+                echo = true;
+            }
+        }
+
+        var tex = matriz[numVerbo][3].split("-");
+
+        var elemento = document.createElement("span");
+        var texto = document.createTextNode(tex[0]);
+        elemento.id = "span";
+        elemento.appendChild(texto);
+        span.appendChild(elemento);
+
+        var elemento2 = document.createElement("span");
+        var texto2 = document.createTextNode(tex[1]);
+        elemento2.id = "span2";
+        elemento2.appendChild(texto2);
+        span2.appendChild(elemento2);
+
+        // var elementoDerecha = document.createElement("spanDerecha");
+        // var texto = document.createTextNode(tex[0]);
+        // elementoDerecha.id = "span";
+        // elementoDerecha.appendChild(texto);
+        // spanDerecha.appendChild(elementoDerecha);
+
+        // var elementoDerecha2 = document.createElement("spanDerecha2");
+        // var texto2 = document.createTextNode(tex[1]);
+        // elementoDerecha2.id = "span2";
+        // elementoDerecha2.appendChild(texto2);
+        // spanDerecha2.appendChild(elementoDerecha2);
+        var tex2 = matriz[numVerbo][4].split("&");
+        var parrEs = document.getElementsByClassName("napEspaña1");
+       var tex3 = tex2[0].split("-");
+        parrEs[0].innerHTML = tex3[1];
+
+       var tex3 = tex2[1].split("-");
+        parrEs[1].innerHTML = tex3[1];
+
+       var tex3 = tex2[2].split("-");
+        parrEs[2].innerHTML = tex3[1];
+
+        var parrAl = document.getElementsByClassName("napAle1");
+       var tex3 = tex2[0].split("-");
+        parrAl[0].innerHTML = tex3[0];
+
+       var tex3 = tex2[1].split("-");
+        parrAl[1].innerHTML = tex3[0];
+
+       var tex3 = tex2[2].split("-");
+        parrAl[2].innerHTML = tex3[0];
+
+    }
+    var unnombrecualquiera = document.getElementById("ewq");
+    var a = true;
+    unnombrecualquiera.onclick = function () {
+        var tiempos = document.querySelectorAll(".qwe");
+        if (a) {
+            for (var i = 0; i < tiempos.length; i++) {
+                tiempos[i].style.display = "block";
+            }
+        }
+        else {
+            for (var i = 0; i < tiempos.length; i++) {
+                tiempos[i].style.display = "none";
+            }
+        }
+        a = !a;
+    }
+    var unnombrecualquiera = document.getElementById("ert");
+    var a2 = true;
+    unnombrecualquiera.onclick = function () {
+        var tiempos = document.querySelectorAll(".poi");
+        if (a2) {
+            for (var i = 0; i < tiempos.length; i++) {
+                tiempos[i].style.display = "block";
+            }
+        }
+        else {
+            for (var i = 0; i < tiempos.length; i++) {
+                tiempos[i].style.display = "none";
+            }
+        }
+        a2 = !a2;
+    }
+ 
+
+
+
+</script>
+
+</html>

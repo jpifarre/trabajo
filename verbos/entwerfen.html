@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta author="Mateo Molem">
+		<meta description="Es una pagina para aprender los verbos en aleman."> 
+		<meta keywords="verbos,aleman,deutsch,spanien,español,conjugados, trainer">
+	<title>entwerfen</title>
+	<style type="text/css">
+		html{
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+		div.seccion{
+			display: inline-block;
+			width: 25%;
+		}
+		ul{
+			list-style-type: none;
+			position: relative;
+			right: 40px;
+			margin: 0%;
+		}
+		h1{
+			text-align: center;
+		
+			width: 100%;
+		}
+		ul.arriba{
+			border-top: 2px dashed;
+			border-bottom: 2px dashed;
+			width: 100%;
+		}
+		body {
+            background-color: #f0f05a;
+        }
+	</style>
+</head>
+<body>
+	<h1>Verbos</h1>
+	<ul class="arriba">
+		<li>Infinitivo: entwerfen </li>
+		<li>Participio: entworfen</li>
+		<li>Imperativo: entwirf</li>
+	</ul>
+<div>
+	<div class="seccion">
+		<h3>Presente</h3>
+		<ul>
+			<li><span>ich</span> entwerfe</li>
+			<li><span>du</span> entwirfst</li>
+			<li><span>er, sie, es</span> entwirft</li>
+			<li><span>wir</span> entwerfen</li>
+			<li><span>ihr</span> entwerft</li>
+			<li><span>sie, Sie</span> entwerfen</li>
+		</ul>
+	</div>
+	<div class="seccion">
+		<h3>Pretérito perfecto</h3>
+		<ul>
+			<li><span>ich</span> habe entworfen</li>
+			<li><span>du</span> hast entworfen</li>
+			<li><span>er, sie, es</span> hat entworfen</li>
+			<li><span>wir</span> haben entworfen</li>
+			<li><span>ihr</span> habt entworfen</li>
+			<li><span>sie, Sie</span> haben entworfen</li>
+		</ul>
+	</div>
+	<div class="seccion">
+		<h3>Futuro</h3>
+		<ul>
+			<li><span>ich</span> werde entwerfen</li>
+			<li><span>du</span> wirst entwerfen</li>
+			<li><span>er, sie, es</span> wird entwerfen</li>
+			<li><span>wir</span> werden entwerfen</li>
+			<li><span>ihr</span> werdet entwerfen</li>
+			<li><span>sie, Sie</span> werden entwerfen</li>
+		</ul>
+	</div>
+</div>
+</body>
+<script>
+	window.onload = function (){
+			var lis = document.querySelectorAll("span");
+			for(i=0;i<lis.length;i++){
+				if(lis[i].innerText == "ich"){
+					lis[i].style.paddingRight = "53px";
+				}
+				else if(lis[i].innerText == "du"){
+					lis[i].style.paddingRight = "57px";
+				}
+				else if(lis[i].innerText == "er, sie, es"){
+					lis[i].style.paddingRight = "5px";
+				}
+				
+				else if(lis[i].innerText == "wir"){
+					lis[i].style.paddingRight = "50px";
+				}
+				
+				else if(lis[i].innerText == "ihr"){
+					lis[i].style.paddingRight = "55px";
+				}
+				
+				else if(lis[i].innerText == "sie, Sie"){
+					lis[i].style.paddingRight = "25px";
+				}
+			}
+		}
+	</script>
+</html>

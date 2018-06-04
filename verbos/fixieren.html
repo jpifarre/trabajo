@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta author="Mateo Molem">
+		<meta description="Es una pagina para aprender los verbos en aleman."> 
+		<meta keywords="verbos,aleman,deutsch,spanien,español,conjugados, trainer">
+	<title>fixieren</title>
+	<style type="text/css">
+		html{
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+		div.seccion{
+			display: inline-block;
+			width: 25%;
+		}
+		ul{
+			list-style-type: none;
+			position: relative;
+			right: 40px;
+			margin: 0%;
+		}
+		h1{
+			text-align: center;
+		
+			width: 100%;
+		}
+		ul.arriba{
+			border-top: 2px dashed;
+			border-bottom: 2px dashed;
+			width: 100%;
+		}
+		body {
+            background-color: #f0f05a;
+        }
+	</style>
+</head>
+<body>
+	<h1>Verbos</h1>
+	<ul class="arriba">
+		<li>Infinitivo: fixieren </li>
+		<li>Participio: fixiert</li>
+		<li>Imperativo: fixiere</li>
+	</ul>
+<div>
+	<div class="seccion">
+		<h3>Presente</h3>
+		<ul>
+			<li><span>ich</span> fixiere</li>
+			<li><span>du</span> fixierst</li>
+		<li><span>er, sie, es</span> fixiert</li>
+			<li><span>wir</span> fixieren</li>
+			<li><span>ihr</span> fixiert</li>
+			<li><span>sie, Sie</span> fixieren</li>
+		</ul>
+	</div>
+	<div class="seccion">
+		<h3>Pretérito perfecto</h3>
+		<ul>
+			<li><span>ich</span> habe fixiert</li>
+			<li><span>du</span> hast fixiert</li>
+		<li><span>er, sie, es</span> hat fixiert</li>
+			<li><span>wir</span> haben fixiert</li>
+			<li><span>ihr</span> habt fixiert</li>
+			<li><span>sie, Sie</span> haben fixiert</li>
+		</ul>
+	</div>
+	<div class="seccion">
+		<h3>Futuro</h3>
+		<ul>
+			<li><span>ich</span> werde fixieren</li>
+			<li><span>du</span> wirst fixieren</li>
+		<li><span>er, sie, es</span> wird fixieren</li>
+			<li><span>wir</span> werden fixieren</li>
+			<li><span>ihr</span> werdet fixieren</li>
+			<li><span>sie, Sie</span> werden fixieren</li>
+		</ul>
+	</div>
+</div>
+</body>
+<script>
+	window.onload = function (){
+			var lis = document.querySelectorAll("span");
+			for(i=0;i<lis.length;i++){
+				if(lis[i].innerText == "ich"){
+					lis[i].style.paddingRight = "53px";
+				}
+				else if(lis[i].innerText == "du"){
+					lis[i].style.paddingRight = "57px";
+				}
+				else if(lis[i].innerText == "er, sie, es"){
+					lis[i].style.paddingRight = "5px";
+				}
+				
+				else if(lis[i].innerText == "wir"){
+					lis[i].style.paddingRight = "50px";
+				}
+				
+				else if(lis[i].innerText == "ihr"){
+					lis[i].style.paddingRight = "55px";
+				}
+				
+				else if(lis[i].innerText == "sie, Sie"){
+					lis[i].style.paddingRight = "25px";
+				}
+			}
+		}
+	</script>
+</html>

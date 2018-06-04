@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta author="Mateo Molem">
+  <meta description="Es una pagina para aprender los verbos en aleman.">
+  <meta keywords="verbos,aleman,deutsch,spanien,español,conjugados, trainer">
+  <title>Ejercicio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+  </style>
+  <style>
+    body {
+      font-family: "Roboto", sans-serif;
+      font-size: 1.5em;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    html {
+      background: linear-gradient(to right, rgb(5, 5, 211), #B6BFEB);
+      padding-left: 100px;
+      padding-right: 100px;
+      font-size: 1em;
+    }
+
+    * {
+      font-family: "Roboto", sans-serif;
+    }
+
+    h1 {
+      color: white;
+      border-bottom: 2px dashed red;
+      font-size: 50px;
+    }
+
+    p.centrada {
+      width: 80%;
+      text-align: center;
+      position: relative;
+      left: 135px;
+    }
+
+    table#izquierda {
+
+      margin-right: 5px;
+      float: left;
+
+      width: 20%;
+      float: left;
+      text-align: center;
+      position: relative;
+      top: 10px;
+
+    }
+
+    p#izquierda {
+      width: 20%;
+      float: left;
+      text-align: center;
+      background: #f7f5f5;
+      position: relative;
+      bottom: 10px;
+    }
+
+    p#izquierda a {
+      text-decoration: none;
+    }
+
+    table#izquierda td#asdl {
+      background: rgb(84, 206, 84);
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+    }
+
+    header p.centrada img {
+      width: 155px;
+      height: 120px;
+    }
+
+    footer p.centrada img {
+      width: 100px;
+      height: 120px;
+    }
+
+    h1 {
+      color: white;
+      border-bottom: 2px dashed red;
+      font-size: 50px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <p class="centrada">
+      <a title="Ajuntament de Lleida" href="http://www.paeria.es/cat/">
+        <img src="./fotos/1.PNG" alt="Ajuntament de Lleida">
+      </a>
+      <a title="Generalitat de Catalunya" href="http://web.gencat.cat/cat/inici">
+        <img src="./fotos/2.PNG" alt="Generalitat de Catalunya">
+      </a>
+      <a title="Landkreis Osnabrück" href="http://www.landkreis-osnabrueck.de/">
+        <img src="./fotos/3.PNG" alt="Landkreis Osnabrück">
+      </a>
+      <a title="Erasmus+" href="http://www.erasmusplus.de/">
+        <img src="./fotos/4.PNG" alt="Erasmus+">
+      </a>
+    </p>
+  </header>
+
+  <table id="izquierda">
+    <tr>
+      <td>
+        <img width="100%" height="200px" href="trainer.html" src=".\fotos\4.png">
+      </td>
+    </tr>
+    <tr>
+      <td id="asdl">
+        <a href="./Conjugar Presente.html">Gramática</a>
+      </td>
+    </tr>
+    <tr>
+      <td id="asdl">
+        <a href="uno.html">Lista de verbos</a>
+      </td>
+    </tr>
+    <tr>
+      <td id="asdl">
+        <a href="clasificados.html">Campos profesionales</a>
+      </td>
+    </tr>
+    <tr>
+      <td id="asdl">
+        <a href="trainer presente.html">Verbos presente</a>
+      </td>
+    </tr>
+    <tr>
+      <td id="asdl">
+        <a href="trainer preterito.html">Verbos pretérito perfecto</a>
+      </td>
+    </tr>
+    <tr>
+      <td id="asdl">
+        <a href="trainer.html">Practicar todos</a>
+      </td>
+    </tr>
+  </table>
+
+  <p>
+    <h1 class="derecha">Ejercicio de verbos</h1>
+  </p>
+  <hr>
+
+
+  <table id="tabla"></table>
+
+  <footer class="clear">
+    <p class="centrada">
+      <a title="Universitat Bremen" href="http://www.uni-bremen.de">
+        <img src="./fotos/1 bot.PNG" alt="Universitat Bremen">
+      </a>
+      <a title="Berufsbildende Bremen" href="https://www.bildung.bremen.de/start-1459">
+        <img src="./fotos/2 bot.PNG" alt="Berufsbildende Bremen">
+      </a>
+      <a title="lerschlucht" href="">
+        <img src="./fotos/3 bot.PNG" alt="lerschlucht">
+      </a>
+      <a title="Institut escola del Trebail" href="http://escoladeltreball.cat">
+        <img src="./fotos/4 bot.PNG" alt="Institut escola del Trebail">
+      </a>
+      <a title="Caparrella" href="http://www.iescaparrella.cat/">
+        <img src="./fotos/5 bot.PNG" alt="Caparrella">
+      </a>
+      <a title="Escola de hosteleria" href="http://agora.xtec.cat/iesescolahoteleriadelleida/">
+        <img src="./fotos/6 bot.PNG" alt="Escola de hosteleria">
+      </a>
+      <a title="Friedich Schriller Universitat Jena" href="http://www.uni-jena.de/">
+        <img src="./fotos/7 bot.PNG" alt="Friedich Schriller Universitat Jena">
+      </a>
+    </p>
+  </footer>
+
+
+</body>
+<script>
+  var tabla = document.getElementById("tabla");
+  var fila = document.createElement("tr");
+  var iz = document.createElement("td")
+
+
+</script>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <title> Música con una imagen</title>
+     <script language=javascript> 
+          var estado = false;
+          var sones = "<embed id=sonido src=musicaMidi.mid autostart=true loop=true >";
+          function cambiar() {
+               estado = !estado;
+               document.getElementById("fantasma").innerHTML = (estado) ? sones : "";
+          } 
+     </script>
+</head>
+
+<body>
+     <a href="#" onclick="cambiar()">
+          <img src=Arrow.jpg border="0" width="23" height="16">
+     </a>
+     <div id=fantasma style="width:1; height:1; visibility:visible; overflow:hidden"></div>
+</body>
+
+</html>

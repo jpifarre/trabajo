@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta author="Mateo Molem">
+		<meta description="Es una pagina para aprender los verbos en aleman."> 
+		<meta keywords="verbos,aleman,deutsch,spanien,español,conjugados, trainer">
+	<title>aufladen</title>
+	<style type="text/css">
+		html{
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+		div.seccion{
+			display: inline-block;
+			width: 25%;
+		}
+		ul{
+			list-style-type: none;
+			position: relative;
+			right: 40px;
+			margin: 0%;
+		}
+		h1{
+			text-align: center;
+		
+			width: 100%;
+		}
+		ul.arriba{
+			border-top: 2px dashed;
+			border-bottom: 2px dashed;
+			width: 100%;
+		}
+		body {
+            background-color: #f0f05a;
+        }
+	</style>
+</head>
+<body>
+	<h1>Verbos</h1>
+	<ul class="arriba">
+		<li>Infinitivo: aufladen </li>
+		<li>Participio: aufgeladen</li>
+		<li>Imperativo: lade</li>
+	</ul>
+<div>
+	<div class="seccion">
+		<h3>Presente</h3>
+		<ul>
+			<li><span>ich</span> lade auf</li>
+			<li><span>du</span> lädst auf</li>
+			<li><span>er, sie, es</span> lädt auf</li>
+			<li><span>wir</span> laden auf</li>
+			<li><span>ihr</span> ladet auf</li>
+			<li><span>sie, Sie</span> laden auf</li>
+		</ul>
+	</div>
+	<div class="seccion">
+		<h3>Pretérito perfecto</h3>
+		<ul>
+			<li><span>ich</span> habe aufgeladen</li>
+			<li><span>du</span> hast aufgeladen</li>
+			<li><span>er, sie, es</span> hat aufgeladen</li>
+			<li><span>wir</span> haben aufgeladen</li>
+			<li><span>ihr</span> habt aufgeladen</li>
+			<li><span>sie, Sie</span> haben aufgeladen</li>
+		</ul>
+	</div>
+	<div class="seccion">
+		<h3>Futuro</h3>
+		<ul>
+			<li><span>ich</span> werde aufladen</li>
+			<li><span>du</span> wirst aufladen</li>
+			<li><span>er, sie, es</span> wird aufladen</li>
+			<li><span>wir</span> werden aufladen</li>
+			<li><span>ihr</span> werdet aufladen</li>
+			<li><span>sie, Sie</span> werden aufladen</li>
+		</ul>
+	</div>
+</div>
+</body><script>
+	window.onload = function (){
+			var lis = document.querySelectorAll("span");
+			for(i=0;i<lis.length;i++){
+				if(lis[i].innerText == "ich"){
+					lis[i].style.paddingRight = "53px";
+				}
+				else if(lis[i].innerText == "du"){
+					lis[i].style.paddingRight = "57px";
+				}
+				else if(lis[i].innerText == "er, sie, es"){
+					lis[i].style.paddingRight = "5px";
+				}
+				
+				else if(lis[i].innerText == "wir"){
+					lis[i].style.paddingRight = "50px";
+				}
+				
+				else if(lis[i].innerText == "ihr"){
+					lis[i].style.paddingRight = "55px";
+				}
+				
+				else if(lis[i].innerText == "sie, Sie"){
+					lis[i].style.paddingRight = "25px";
+				}
+			}
+		}
+	</script>
+</html>
