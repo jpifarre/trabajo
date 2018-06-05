@@ -1,0 +1,974 @@
+{
+    "verbos" : [
+  {
+    "rank": 1,
+    "german": "abbiegen",
+    "spanish": ""
+  },
+  {
+    "rank": 2,
+    "german": "abbrechen",
+    "spanish": ""
+  },
+  {
+    "rank": 3,
+    "german": "abbrühen",
+    "spanish": ""
+  },
+  {
+    "rank": 4,
+    "german": "abgraten",
+    "spanish": ""
+  },
+  {
+    "rank": 5,
+    "german": "abschalten",
+    "spanish": ""
+  },
+  {
+    "rank": 6,
+    "german": "abschleifen",
+    "spanish": ""
+  },
+  {
+    "rank": 7,
+    "german": "abtrocken",
+    "spanish": ""
+  },
+  {
+    "rank": 8,
+    "german": "aktualisieren",
+    "spanish": ""
+  },
+  {
+    "rank": 9,
+    "german": "anfangen",
+    "spanish": ""
+  },
+  {
+    "rank": 10,
+    "german": "anhängen",
+    "spanish": ""
+  },
+  {
+    "rank": 11,
+    "german": "ankommen",
+    "spanish": ""
+  },
+  {
+    "rank": 12,
+    "german": "anmachen",
+    "spanish": ""
+  },
+  {
+    "rank": 13,
+    "german": "annehmen",
+    "spanish": ""
+  },
+  {
+    "rank": 14,
+    "german": "anschliessen",
+    "spanish": ""
+  },
+  {
+    "rank": 15,
+    "german": "antwerfen",
+    "spanish": ""
+  },
+  {
+    "rank": 16,
+    "german": "antworten",
+    "spanish": ""
+  },
+  {
+    "rank": 17,
+    "german": "anziehen",
+    "spanish": ""
+  },
+  {
+    "rank": 18,
+    "german": "arbeiten",
+    "spanish": ""
+  },
+  {
+    "rank": 19,
+    "german": "aufladen",
+    "spanish": ""
+  },
+  {
+    "rank": 20,
+    "german": "aufmachen",
+    "spanish": ""
+  },
+  {
+    "rank": 21,
+    "german": "aufräumen",
+    "spanish": ""
+  },
+  {
+    "rank": 22,
+    "german": "aufstehen",
+    "spanish": ""
+  },
+  {
+    "rank": 23,
+    "german": "ausdrucken",
+    "spanish": ""
+  },
+  {
+    "rank": 24,
+    "german": "ausfüllen",
+    "spanish": ""
+  },
+  {
+    "rank": 25,
+    "german": "aussetzen",
+    "spanish": ""
+  },
+  {
+    "rank": 26,
+    "german": "auswählen",
+    "spanish": ""
+  },
+  {
+    "rank": 27,
+    "german": "backen",
+    "spanish": ""
+  },
+  {
+    "rank": 28,
+    "german": "baifügen",
+    "spanish": ""
+  },
+  {
+    "rank": 29,
+    "german": "bauen",
+    "spanish": ""
+  },
+  {
+    "rank": 30,
+    "german": "bearbeiten",
+    "spanish": ""
+  },
+  {
+    "rank": 31,
+    "german": "beenden",
+    "spanish": ""
+  },
+  {
+    "rank": 32,
+    "german": "befehlen",
+    "spanish": ""
+  },
+  {
+    "rank": 33,
+    "german": "begränden",
+    "spanish": ""
+  },
+  {
+    "rank": 34,
+    "german": "beschleunigen",
+    "spanish": ""
+  },
+  {
+    "rank": 35,
+    "german": "bestätigen",
+    "spanish": ""
+  },
+  {
+    "rank": 36,
+    "german": "besuchen",
+    "spanish": ""
+  },
+  {
+    "rank": 37,
+    "german": "bewegen",
+    "spanish": ""
+  },
+  {
+    "rank": 38,
+    "german": "bewrtschaften",
+    "spanish": ""
+  },
+  {
+    "rank": 39,
+    "german": "bleiben",
+    "spanish": ""
+  },
+  {
+    "rank": 40,
+    "german": "bohren",
+    "spanish": ""
+  },
+  {
+    "rank": 41,
+    "german": "brauchen",
+    "spanish": ""
+  },
+  {
+    "rank": 42,
+    "german": "bremse",
+    "spanish": ""
+  },
+  {
+    "rank": 43,
+    "german": "brennen",
+    "spanish": ""
+  },
+  {
+    "rank": 44,
+    "german": "bringen",
+    "spanish": ""
+  },
+  {
+    "rank": 45,
+    "german": "chatten",
+    "spanish": ""
+  },
+  {
+    "rank": 46,
+    "german": "demontieren",
+    "spanish": ""
+  },
+  {
+    "rank": 47,
+    "german": "drucken",
+    "spanish": ""
+  },
+  {
+    "rank": 48,
+    "german": "drücken",
+    "spanish": ""
+  },
+  {
+    "rank": 49,
+    "german": "durchbohren",
+    "spanish": ""
+  },
+  {
+    "rank": 50,
+    "german": "ebnen",
+    "spanish": ""
+  },
+  {
+    "rank": 51,
+    "german": "einfuegen",
+    "spanish": ""
+  },
+  {
+    "rank": 52,
+    "german": "einschalten",
+    "spanish": ""
+  },
+  {
+    "rank": 53,
+    "german": "einsladen",
+    "spanish": ""
+  },
+  {
+    "rank": 54,
+    "german": "einstecken",
+    "spanish": ""
+  },
+  {
+    "rank": 55,
+    "german": "eliminieren",
+    "spanish": ""
+  },
+  {
+    "rank": 56,
+    "german": "enkunden",
+    "spanish": ""
+  },
+  {
+    "rank": 57,
+    "german": "erhalten",
+    "spanish": ""
+  },
+  {
+    "rank": 58,
+    "german": "erinnern",
+    "spanish": ""
+  },
+  {
+    "rank": 59,
+    "german": "erledigen",
+    "spanish": ""
+  },
+  {
+    "rank": 60,
+    "german": "erleuchten",
+    "spanish": ""
+  },
+  {
+    "rank": 61,
+    "german": "erproben",
+    "spanish": ""
+  },
+  {
+    "rank": 62,
+    "german": "erstellen",
+    "spanish": ""
+  },
+  {
+    "rank": 63,
+    "german": "essen",
+    "spanish": ""
+  },
+  {
+    "rank": 64,
+    "german": "fahren",
+    "spanish": ""
+  },
+  {
+    "rank": 65,
+    "german": "fallen",
+    "spanish": ""
+  },
+  {
+    "rank": 66,
+    "german": "feilen",
+    "spanish": ""
+  },
+  {
+    "rank": 67,
+    "german": "finden",
+    "spanish": ""
+  },
+  {
+    "rank": 68,
+    "german": "fixieren",
+    "spanish": ""
+  },
+  {
+    "rank": 69,
+    "german": "formatieren",
+    "spanish": ""
+  },
+  {
+    "rank": 70,
+    "german": "fragen",
+    "spanish": ""
+  },
+  {
+    "rank": 71,
+    "german": "frühstücken",
+    "spanish": ""
+  },
+  {
+    "rank": 72,
+    "german": "füllen",
+    "spanish": ""
+  },
+  {
+    "rank": 73,
+    "german": "füttern",
+    "spanish": ""
+  },
+  {
+    "rank": 74,
+    "german": "geben",
+    "spanish": ""
+  },
+  {
+    "rank": 75,
+    "german": "gehen",
+    "spanish": ""
+  },
+  {
+    "rank": 76,
+    "german": "graben",
+    "spanish": ""
+  },
+  {
+    "rank": 77,
+    "german": "heben",
+    "spanish": ""
+  },
+  {
+    "rank": 78,
+    "german": "heften",
+    "spanish": ""
+  },
+  {
+    "rank": 79,
+    "german": "helfen",
+    "spanish": ""
+  },
+  {
+    "rank": 80,
+    "german": "herstellen",
+    "spanish": ""
+  },
+  {
+    "rank": 81,
+    "german": "herunterlade",
+    "spanish": ""
+  },
+  {
+    "rank": 82,
+    "german": "herunterladen",
+    "spanish": ""
+  },
+  {
+    "rank": 83,
+    "german": "hinsetzen",
+    "spanish": ""
+  },
+  {
+    "rank": 84,
+    "german": "hobeln",
+    "spanish": ""
+  },
+  {
+    "rank": 85,
+    "german": "hochladen",
+    "spanish": ""
+  },
+  {
+    "rank": 86,
+    "german": "hören",
+    "spanish": ""
+  },
+  {
+    "rank": 87,
+    "german": "installieren",
+    "spanish": ""
+  },
+  {
+    "rank": 88,
+    "german": "kapieren",
+    "spanish": ""
+  },
+  {
+    "rank": 89,
+    "german": "kaufen",
+    "spanish": ""
+  },
+  {
+    "rank": 90,
+    "german": "kehren",
+    "spanish": ""
+  },
+  {
+    "rank": 91,
+    "german": "kleben",
+    "spanish": ""
+  },
+  {
+    "rank": 92,
+    "german": "klicken",
+    "spanish": ""
+  },
+  {
+    "rank": 93,
+    "german": "konfigurieren",
+    "spanish": ""
+  },
+  {
+    "rank": 94,
+    "german": "kontrollieren",
+    "spanish": ""
+  },
+  {
+    "rank": 95,
+    "german": "kopieren",
+    "spanish": ""
+  },
+  {
+    "rank": 96,
+    "german": "kratzen",
+    "spanish": ""
+  },
+  {
+    "rank": 97,
+    "german": "kriegen",
+    "spanish": ""
+  },
+  {
+    "rank": 98,
+    "german": "können",
+    "spanish": ""
+  },
+  {
+    "rank": 99,
+    "german": "külen",
+    "spanish": ""
+  },
+  {
+    "rank": 100,
+    "german": "laden",
+    "spanish": ""
+  },
+  {
+    "rank": 101,
+    "german": "laufen",
+    "spanish": ""
+  },
+  {
+    "rank": 102,
+    "german": "laufen lassen",
+    "spanish": ""
+  },
+  {
+    "rank": 103,
+    "german": "legen",
+    "spanish": ""
+  },
+  {
+    "rank": 104,
+    "german": "lernen",
+    "spanish": ""
+  },
+  {
+    "rank": 105,
+    "german": "lesen",
+    "spanish": ""
+  },
+  {
+    "rank": 106,
+    "german": "löschen",
+    "spanish": ""
+  },
+  {
+    "rank": 107,
+    "german": "lösen",
+    "spanish": ""
+  },
+  {
+    "rank": 108,
+    "german": "löten",
+    "spanish": ""
+  },
+  {
+    "rank": 109,
+    "german": "machen",
+    "spanish": ""
+  },
+  {
+    "rank": 110,
+    "german": "malen",
+    "spanish": ""
+  },
+  {
+    "rank": 111,
+    "german": "markieren",
+    "spanish": ""
+  },
+  {
+    "rank": 112,
+    "german": "messen",
+    "spanish": ""
+  },
+  {
+    "rank": 113,
+    "german": "mischen",
+    "spanish": ""
+  },
+  {
+    "rank": 114,
+    "german": "mitkommen",
+    "spanish": ""
+  },
+  {
+    "rank": 115,
+    "german": "modifizieren",
+    "spanish": ""
+  },
+  {
+    "rank": 116,
+    "german": "montiere",
+    "spanish": ""
+  },
+  {
+    "rank": 117,
+    "german": "mögen",
+    "spanish": ""
+  },
+  {
+    "rank": 118,
+    "german": "müssen",
+    "spanish": ""
+  },
+  {
+    "rank": 119,
+    "german": "nehmen",
+    "spanish": ""
+  },
+  {
+    "rank": 120,
+    "german": "neustarte",
+    "spanish": ""
+  },
+  {
+    "rank": 121,
+    "german": "optimieren",
+    "spanish": ""
+  },
+  {
+    "rank": 122,
+    "german": "parken",
+    "spanish": ""
+  },
+  {
+    "rank": 123,
+    "german": "passen",
+    "spanish": ""
+  },
+  {
+    "rank": 124,
+    "german": "pflanzen",
+    "spanish": ""
+  },
+  {
+    "rank": 125,
+    "german": "polieren",
+    "spanish": ""
+  },
+  {
+    "rank": 126,
+    "german": "programmieren",
+    "spanish": ""
+  },
+  {
+    "rank": 127,
+    "german": "prüfen",
+    "spanish": ""
+  },
+  {
+    "rank": 128,
+    "german": "putzen",
+    "spanish": ""
+  },
+  {
+    "rank": 129,
+    "german": "rechnen",
+    "spanish": ""
+  },
+  {
+    "rank": 130,
+    "german": "regeln",
+    "spanish": ""
+  },
+  {
+    "rank": 131,
+    "german": "registrieren",
+    "spanish": ""
+  },
+  {
+    "rank": 132,
+    "german": "reinigen",
+    "spanish": ""
+  },
+  {
+    "rank": 133,
+    "german": "reparieren",
+    "spanish": ""
+  },
+  {
+    "rank": 134,
+    "german": "reproduzieren",
+    "spanish": ""
+  },
+  {
+    "rank": 135,
+    "german": "rotieren",
+    "spanish": ""
+  },
+  {
+    "rank": 136,
+    "german": "sagen",
+    "spanish": ""
+  },
+  {
+    "rank": 137,
+    "german": "saugen",
+    "spanish": ""
+  },
+  {
+    "rank": 138,
+    "german": "schalte",
+    "spanish": ""
+  },
+  {
+    "rank": 139,
+    "german": "schlagen",
+    "spanish": ""
+  },
+  {
+    "rank": 140,
+    "german": "schliessen",
+    "spanish": ""
+  },
+  {
+    "rank": 141,
+    "german": "schneiden",
+    "spanish": ""
+  },
+  {
+    "rank": 142,
+    "german": "schrauben",
+    "spanish": ""
+  },
+  {
+    "rank": 143,
+    "german": "schreiben",
+    "spanish": ""
+  },
+  {
+    "rank": 144,
+    "german": "schälen",
+    "spanish": ""
+  },
+  {
+    "rank": 145,
+    "german": "sehen",
+    "spanish": ""
+  },
+  {
+    "rank": 146,
+    "german": "sein",
+    "spanish": ""
+  },
+  {
+    "rank": 147,
+    "german": "senden",
+    "spanish": ""
+  },
+  {
+    "rank": 148,
+    "german": "setzen",
+    "spanish": ""
+  },
+  {
+    "rank": 149,
+    "german": "speichern",
+    "spanish": ""
+  },
+  {
+    "rank": 150,
+    "german": "spielen",
+    "spanish": ""
+  },
+  {
+    "rank": 151,
+    "german": "starten",
+    "spanish": ""
+  },
+  {
+    "rank": 152,
+    "german": "stellen",
+    "spanish": ""
+  },
+  {
+    "rank": 153,
+    "german": "streichen",
+    "spanish": ""
+  },
+  {
+    "rank": 154,
+    "german": "stützen",
+    "spanish": ""
+  },
+  {
+    "rank": 155,
+    "german": "suchen",
+    "spanish": ""
+  },
+  {
+    "rank": 156,
+    "german": "surfen",
+    "spanish": ""
+  },
+  {
+    "rank": 157,
+    "german": "tailen",
+    "spanish": ""
+  },
+  {
+    "rank": 158,
+    "german": "tauschen",
+    "spanish": ""
+  },
+  {
+    "rank": 159,
+    "german": "testen",
+    "spanish": ""
+  },
+  {
+    "rank": 160,
+    "german": "tippen",
+    "spanish": ""
+  },
+  {
+    "rank": 161,
+    "german": "tragen",
+    "spanish": ""
+  },
+  {
+    "rank": 162,
+    "german": "transportieren",
+    "spanish": ""
+  },
+  {
+    "rank": 163,
+    "german": "trennen",
+    "spanish": ""
+  },
+  {
+    "rank": 164,
+    "german": "träumen",
+    "spanish": ""
+  },
+  {
+    "rank": 165,
+    "german": "tun",
+    "spanish": ""
+  },
+  {
+    "rank": 166,
+    "german": "umziehen",
+    "spanish": ""
+  },
+  {
+    "rank": 167,
+    "german": "unterlassen",
+    "spanish": ""
+  },
+  {
+    "rank": 168,
+    "german": "unterrichten",
+    "spanish": ""
+  },
+  {
+    "rank": 169,
+    "german": "verbinden",
+    "spanish": ""
+  },
+  {
+    "rank": 170,
+    "german": "verkabeln",
+    "spanish": ""
+  },
+  {
+    "rank": 171,
+    "german": "verkaufen",
+    "spanish": ""
+  },
+  {
+    "rank": 172,
+    "german": "verpassen",
+    "spanish": ""
+  },
+  {
+    "rank": 173,
+    "german": "verschieben",
+    "spanish": ""
+  },
+  {
+    "rank": 174,
+    "german": "verschmutzen",
+    "spanish": ""
+  },
+  {
+    "rank": 175,
+    "german": "verstehen",
+    "spanish": ""
+  },
+  {
+    "rank": 176,
+    "german": "verwerten",
+    "spanish": ""
+  },
+  {
+    "rank": 177,
+    "german": "vorbereiten",
+    "spanish": ""
+  },
+  {
+    "rank": 178,
+    "german": "vorlesen",
+    "spanish": ""
+  },
+  {
+    "rank": 179,
+    "german": "warten",
+    "spanish": ""
+  },
+  {
+    "rank": 180,
+    "german": "wegnehmen",
+    "spanish": ""
+  },
+  {
+    "rank": 181,
+    "german": "wischen",
+    "spanish": ""
+  },
+  {
+    "rank": 182,
+    "german": "wissen",
+    "spanish": ""
+  },
+  {
+    "rank": 183,
+    "german": "wollen",
+    "spanish": ""
+  },
+  {
+    "rank": 184,
+    "german": "wärmen",
+    "spanish": ""
+  },
+  {
+    "rank": 185,
+    "german": "zahlen",
+    "spanish": ""
+  },
+  {
+    "rank": 186,
+    "german": "zeichnen",
+    "spanish": ""
+  },
+  {
+    "rank": 187,
+    "german": "zerkleinern",
+    "spanish": ""
+  },
+  {
+    "rank": 188,
+    "german": "ziehen",
+    "spanish": ""
+  },
+  {
+    "rank": 189,
+    "german": "zumachen",
+    "spanish": ""
+  },
+  {
+    "rank": 190,
+    "german": "zurücksetzen",
+    "spanish": ""
+  },
+  {
+    "rank": 191,
+    "german": "zünden",
+    "spanish": ""
+  },
+  {
+    "rank": 192,
+    "german": "ändern",
+    "spanish": ""
+  },
+  {
+    "rank": 193,
+    "german": "öffnen",
+    "spanish": ""
+  },
+  {
+    "rank": 194,
+    "german": "überprüfen",
+    "spanish": ""
+  }
+]
+}
