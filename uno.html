@@ -9,6 +9,11 @@
   <meta description="Es una pagina para aprender los verbos en aleman.">
   <meta keywords="verbos,aleman,deutsch,spanien,español,conjugados, trainer">
   <title>Conjugador</title>
+    <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/verbos.js"></script>
+  <link rel="stylesheet" href="./fonts/font-awesome.css">
+  <link rel="stylesheet" href="./css/bootstarp/css/bootstrap.css">
+  <script src="css/bootstarp/js/bootstrap.js"></script>
   <style>
     @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
@@ -238,12 +243,28 @@
   </form>
   <hr>
 
-  <table id="tabla" class="alejar">
-    <tr>
-      <td id="especial">Rank</td>
-      <td id="especial">Verb</td>
-    </tr>
-  </table>
+  <div style="text-align: center">
+    <table id="tabla" class="alejar" style="width: 30%;">
+        <thead>
+            <td id="especial">Rank</td>
+            <td id="especial">Verb</td>
+            <td id="especial">Español</td>
+        </thead>
+        <tbody id="listVerb">
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+
+
+        </table>
+        <div style="margin-left:24%;margin-top:5px;text-align: center;display: block">
+
+            <ul class="pagination "  style="background-color:transparent; margin-bottom:5px; text-align: center" id="verbsPagination">
+
+            </ul>
+        </div>
+</div>
   </div>
 </body>
 
