@@ -9,7 +9,7 @@
   <meta description="Es una pagina para aprender los verbos en aleman.">
   <meta keywords="verbos,aleman,deutsch,spanien,español,conjugados, trainer">
   <title>Conjugador</title>
-    <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
   <script src="js/verbos.js"></script>
   <link rel="stylesheet" href="./fonts/font-awesome.css">
   <link rel="stylesheet" href="./css/bootstarp/css/bootstrap.css">
@@ -136,7 +136,7 @@
       font-size: 23px;
     }
     p.centrada img{
-            padding-right: 130px;    
+            padding-right: 130px;
         }
         tr:nth-child(n+2):nth-child(-n+9) img{
             margin-right: 10px;
@@ -173,7 +173,9 @@
 
 <header>
   <p class="centrada">
-
+      <a title="Erasmus+" href="http://www.erasmusplus.de/">
+        <img src="./fotos/4.PNG" alt="Erasmus+"  height="150px">
+      </a>
     <a title="Landkreis Osnabrück" href="http://www.landkreis-osnabrueck.de/">
       <img src="./fotos/3.PNG" alt="Landkreis Osnabrück">
     </a>
@@ -190,12 +192,12 @@
 </header>
 
 <body>
-  <table id="izquierda">
-    <tr>
+  <table id="izquierda" style="margin-top: 200px;margin-left: 25px">
+    <!-- <tr>
       <td><a title="Erasmus+" href="http://www.erasmusplus.de/">
         <img src="./fotos/4.PNG" alt="Erasmus+" width="100%" height="200px">
       </a></td>
-    </tr>
+    </tr> -->
     <tr>
       <td id="asdl">
         <img src="./fotos/inicio.png" width="20px" height="20px" ><a href="#"> Inicio</a>
@@ -231,19 +233,18 @@
   <form class="derecha">
     <label>Introduce el infinitivo que quieras ver conjugado</label>
     <br>
-    <input width="300px" type="text" name="txtVerbo" id="txtCaja">
-    <input type="button" value="ä" name="btnA" id="btnA">
-    <input type="button" value="ö" name="btnO" id="btnO">
-    <input type="button" value="ü" name="btnU" id="btnU">
-    <input type="button" value="ß" name="btnB" id="btnB">
+    <input width="300px" type="text" name="txtVerbo" id="txtCaja" onkeyup="filtrarVerbos($('#txtCaja').val())">
+    <input type="button" value="ä" name="btnA" id="btnA" onclick="filtrarVerbos($('#txtCaja').val())">
+    <input type="button" value="ö" name="btnO" id="btnO" onclick="filtrarVerbos($('#txtCaja').val())">
+    <input type="button" value="ü" name="btnU" id="btnU" onclick="filtrarVerbos($('#txtCaja').val())">
+    <input type="button" value="ß" name="btnB" id="btnB" onclick="filtrarVerbos($('#txtCaja').val())">
 
     <br>
     <input type="button" name="btnVer" value="Conjugar" id="btnConjugar">
 
   </form>
   <hr>
-
-  <div style="text-align: center">
+<div style="text-align: center">
     <table id="tabla" class="alejar" style="width: 30%;">
         <thead>
             <td id="especial">Rank</td>
@@ -265,6 +266,8 @@
             </ul>
         </div>
 </div>
+
+
   </div>
 </body>
 
@@ -335,7 +338,7 @@
       }
     }
   }
-
+/*
   window.onload = function () {
     var tabla = document.getElementById("tabla");
     for (var i = 0; i < matriz.length; i++) {
@@ -355,7 +358,9 @@
       fila.appendChild(numero);
       fila.appendChild(verbo);
     }
+
   }
+  */
   var unnombrecualquiera = document.getElementById("ewq");
   var a = true;
   unnombrecualquiera.onclick = function () {
